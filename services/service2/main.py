@@ -1,41 +1,96 @@
-from fastapi import FastAPI, APIRouter, HTTPException
+from fastapi import FastAPI
+import httpx
+import asyncio
+import datetime
+import json
 import os
 
-# TODO: Importar el módulo de base de datos y los modelos
-# from .database import [tu_motor_de_base_de_datos]
-# from .models import [tus_modelos]
+app = FastAPI(title="Servicio 2 - Análisis de Datos de Salud")
 
-# TODO: Configurar la URL de la base de datos desde las variables de entorno
-# DATABASE_URL = os.getenv("DATABASE_URL")
+SERVICE1_URL = "http://127.0.0.1:8001/health-data"
+DATA_FILE = "data_history.json"
+data_history = []
 
-app = FastAPI()
 
-# TODO: Crea una instancia del router para organizar los endpoints
-router = APIRouter()
+# --- Cargar historial previo si existe ---
+def load_data():
+    global data_history
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r") as f:
+            try:
+                data_history = json.load(f)
+                print(f"✅ Historial cargado ({len(data_history)} registros).")
+            except json.JSONDecodeError:
+                print("⚠️ Archivo JSON vacío o dañado, iniciando nuevo historial.")
+                data_history = []
+    else:
+        print("📁 No se encontró historial previo, iniciando nuevo archivo.")
 
-# TODO: Define un endpoint raíz o de salud para verificar que el servicio está funcionando
+
+# --- Guardar historial en archivo ---
+def save_data():
+    with open(DATA_FILE, "w") as f:
+        json.dump(data_history, f, indent=4, ensure_ascii=False)
+
+
+# --- Analizar datos recibidos ---
+def analyze(data):
+    bpm = data.get("ritmo_cardiaco", 0)
+    temp = data.get("temperatura", 0)
+    alertas = []
+
+    if bpm > 100:
+        alertas.append("⚠️ Ritmo cardíaco alto (posible taquicardia)")
+    if temp > 38:
+        alertas.append("🌡️ Fiebre detectada")
+
+    return alertas if alertas else ["✅ Todo en rangos normales"]
+
+
+# --- Tarea automática para recolectar datos ---
+async def auto_fetch_data():
+    while True:
+        try:
+            async with httpx.AsyncClient() as client:
+                response = await client.get(SERVICE1_URL)
+                if response.status_code == 200:
+                    data = response.json()
+                    alertas = analyze(data)
+
+                    entry = {
+                        "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        "datos": data,
+                        "alertas": alertas
+                    }
+                    data_history.append(entry)
+                    save_data()  # Guarda en archivo
+                    print(f"[{entry['timestamp']}] ✅ Datos actualizados:", data)
+                else:
+                    print(f"⚠️ Error {response.status_code} al consultar el service1.")
+        except Exception as e:
+            print("❌ Error al obtener datos del service1:", e)
+
+        await asyncio.sleep(10)  # Esperar 10 segundos antes de la siguiente lectura
+
+
+# --- Al iniciar el servicio ---
+@app.on_event("startup")
+async def startup_event():
+    load_data()
+    asyncio.create_task(auto_fetch_data())
+
+
+# --- Endpoints ---
 @app.get("/")
-def read_root():
-    return {"message": "Servicio de [nombre_del_servicio] en funcionamiento."}
+def root():
+    return {"message": "Servicio 2 activo y recolectando datos automáticamente"}
 
-@app.get("/health")
-def health_check():
-    """Endpoint de salud para verificar el estado del servicio."""
-    return {"status": "ok"}
+@app.get("/analyze")
+def get_latest():
+    if not data_history:
+        return {"mensaje": "Aún no hay datos almacenados"}
+    return data_history[-1]
 
-# TODO: Implementa los endpoints de tu microservicio aquí
-# Ejemplo de un endpoint GET:
-# @router.get("/[ruta_del_recurso]/")
-# async def get_[recurso]():
-#     # TODO: Agrega la lógica de tu negocio aquí
-#     return {"data": "Aquí van tus datos."}
-
-# Ejemplo de un endpoint POST:
-# @router.post("/[ruta_del_recurso]/")
-# async def create_[recurso](item: [tu_modelo_pydantic]):
-#     # TODO: Agrega la lógica para crear un nuevo recurso
-#     return {"message": "[recurso] creado exitosamente."}
-
-
-# TODO: Incluir el router en la aplicación principal
-# app.include_router(router, prefix="/api/v1")
+@app.get("/historial")
+def get_history():
+    return data_history

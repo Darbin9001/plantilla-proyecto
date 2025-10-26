@@ -1,0 +1,3844 @@
+[
+    {
+        "timestamp": "2025-10-26 16:34:54",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 39.0,
+            "presion": "115/89",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:02",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 38.7,
+            "presion": "114/73",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:12",
+        "datos": {
+            "ritmo_cardiaco": 64,
+            "temperatura": 38.2,
+            "presion": "121/70",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:22",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 37.8,
+            "presion": "129/85",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:32",
+        "datos": {
+            "ritmo_cardiaco": 66,
+            "temperatura": 37.3,
+            "presion": "114/84",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:42",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 37.0,
+            "presion": "124/89",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:35:52",
+        "datos": {
+            "ritmo_cardiaco": 107,
+            "temperatura": 36.5,
+            "presion": "119/73",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:01",
+        "datos": {
+            "ritmo_cardiaco": 96,
+            "temperatura": 36.2,
+            "presion": "123/88",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:11",
+        "datos": {
+            "ritmo_cardiaco": 97,
+            "temperatura": 38.1,
+            "presion": "113/71",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:21",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 37.4,
+            "presion": "130/82",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:30",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 36.7,
+            "presion": "108/70",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:40",
+        "datos": {
+            "ritmo_cardiaco": 106,
+            "temperatura": 38.2,
+            "presion": "110/74",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:36:50",
+        "datos": {
+            "ritmo_cardiaco": 108,
+            "temperatura": 37.4,
+            "presion": "110/80",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:00",
+        "datos": {
+            "ritmo_cardiaco": 61,
+            "temperatura": 38.0,
+            "presion": "112/79",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:10",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 37.7,
+            "presion": "113/86",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:20",
+        "datos": {
+            "ritmo_cardiaco": 61,
+            "temperatura": 38.7,
+            "presion": "109/74",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:30",
+        "datos": {
+            "ritmo_cardiaco": 83,
+            "temperatura": 36.5,
+            "presion": "118/86",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:39",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 36.5,
+            "presion": "105/81",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:49",
+        "datos": {
+            "ritmo_cardiaco": 118,
+            "temperatura": 36.7,
+            "presion": "130/86",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:37:59",
+        "datos": {
+            "ritmo_cardiaco": 66,
+            "temperatura": 37.1,
+            "presion": "120/74",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:08",
+        "datos": {
+            "ritmo_cardiaco": 108,
+            "temperatura": 36.7,
+            "presion": "100/70",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:18",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 38.0,
+            "presion": "115/88",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:28",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 37.0,
+            "presion": "114/88",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:38",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 38.2,
+            "presion": "106/70",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:48",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 36.8,
+            "presion": "130/83",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:38:58",
+        "datos": {
+            "ritmo_cardiaco": 77,
+            "temperatura": 36.2,
+            "presion": "114/90",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:08",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 38.2,
+            "presion": "115/75",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:17",
+        "datos": {
+            "ritmo_cardiaco": 69,
+            "temperatura": 36.8,
+            "presion": "121/80",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:27",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 36.4,
+            "presion": "128/77",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:37",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 38.7,
+            "presion": "113/71",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:46",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 37.7,
+            "presion": "109/84",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:39:56",
+        "datos": {
+            "ritmo_cardiaco": 92,
+            "temperatura": 37.3,
+            "presion": "128/87",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:06",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 37.2,
+            "presion": "120/81",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:16",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 36.5,
+            "presion": "103/90",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:26",
+        "datos": {
+            "ritmo_cardiaco": 106,
+            "temperatura": 38.7,
+            "presion": "102/89",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:36",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 36.3,
+            "presion": "110/75",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:46",
+        "datos": {
+            "ritmo_cardiaco": 70,
+            "temperatura": 37.0,
+            "presion": "116/76",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:40:56",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 37.9,
+            "presion": "120/80",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:06",
+        "datos": {
+            "ritmo_cardiaco": 65,
+            "temperatura": 38.7,
+            "presion": "128/88",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:16",
+        "datos": {
+            "ritmo_cardiaco": 62,
+            "temperatura": 38.7,
+            "presion": "111/79",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:25",
+        "datos": {
+            "ritmo_cardiaco": 64,
+            "temperatura": 36.3,
+            "presion": "122/71",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:35",
+        "datos": {
+            "ritmo_cardiaco": 109,
+            "temperatura": 36.7,
+            "presion": "108/80",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:46",
+        "datos": {
+            "ritmo_cardiaco": 120,
+            "temperatura": 38.6,
+            "presion": "123/79",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:41:55",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 38.6,
+            "presion": "130/87",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:05",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 37.4,
+            "presion": "119/78",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:15",
+        "datos": {
+            "ritmo_cardiaco": 64,
+            "temperatura": 38.0,
+            "presion": "113/85",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:24",
+        "datos": {
+            "ritmo_cardiaco": 65,
+            "temperatura": 38.8,
+            "presion": "129/79",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:34",
+        "datos": {
+            "ritmo_cardiaco": 98,
+            "temperatura": 38.4,
+            "presion": "105/88",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:44",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 37.2,
+            "presion": "125/87",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:42:55",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 38.2,
+            "presion": "111/72",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:05",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 36.8,
+            "presion": "109/88",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:15",
+        "datos": {
+            "ritmo_cardiaco": 107,
+            "temperatura": 37.8,
+            "presion": "101/87",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:25",
+        "datos": {
+            "ritmo_cardiaco": 106,
+            "temperatura": 36.6,
+            "presion": "107/74",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:35",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 36.8,
+            "presion": "129/79",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:45",
+        "datos": {
+            "ritmo_cardiaco": 97,
+            "temperatura": 38.4,
+            "presion": "116/89",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:43:55",
+        "datos": {
+            "ritmo_cardiaco": 97,
+            "temperatura": 38.9,
+            "presion": "120/87",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:05",
+        "datos": {
+            "ritmo_cardiaco": 85,
+            "temperatura": 36.4,
+            "presion": "128/70",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:15",
+        "datos": {
+            "ritmo_cardiaco": 103,
+            "temperatura": 37.0,
+            "presion": "120/76",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:25",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 38.1,
+            "presion": "115/70",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:35",
+        "datos": {
+            "ritmo_cardiaco": 72,
+            "temperatura": 36.3,
+            "presion": "120/72",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:45",
+        "datos": {
+            "ritmo_cardiaco": 82,
+            "temperatura": 36.4,
+            "presion": "128/87",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:44:55",
+        "datos": {
+            "ritmo_cardiaco": 98,
+            "temperatura": 37.1,
+            "presion": "124/87",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:05",
+        "datos": {
+            "ritmo_cardiaco": 105,
+            "temperatura": 37.7,
+            "presion": "116/78",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:15",
+        "datos": {
+            "ritmo_cardiaco": 90,
+            "temperatura": 38.8,
+            "presion": "116/80",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:25",
+        "datos": {
+            "ritmo_cardiaco": 70,
+            "temperatura": 38.2,
+            "presion": "105/88",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:35",
+        "datos": {
+            "ritmo_cardiaco": 102,
+            "temperatura": 38.7,
+            "presion": "109/80",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:45",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 37.1,
+            "presion": "108/78",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:45:55",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 37.8,
+            "presion": "111/77",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:05",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 37.9,
+            "presion": "106/78",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:15",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 38.3,
+            "presion": "106/76",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:25",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 36.9,
+            "presion": "120/73",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:35",
+        "datos": {
+            "ritmo_cardiaco": 82,
+            "temperatura": 38.4,
+            "presion": "123/89",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:45",
+        "datos": {
+            "ritmo_cardiaco": 120,
+            "temperatura": 36.7,
+            "presion": "121/72",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:46:55",
+        "datos": {
+            "ritmo_cardiaco": 98,
+            "temperatura": 37.0,
+            "presion": "130/75",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 16:47:05",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 36.6,
+            "presion": "121/86",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:10:37",
+        "datos": {
+            "ritmo_cardiaco": 69,
+            "temperatura": 36.9,
+            "presion": "127/72",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:10:47",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 36.6,
+            "presion": "114/84",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:10:57",
+        "datos": {
+            "ritmo_cardiaco": 96,
+            "temperatura": 36.3,
+            "presion": "123/89",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:07",
+        "datos": {
+            "ritmo_cardiaco": 86,
+            "temperatura": 38.1,
+            "presion": "126/80",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:17",
+        "datos": {
+            "ritmo_cardiaco": 71,
+            "temperatura": 38.1,
+            "presion": "105/73",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:27",
+        "datos": {
+            "ritmo_cardiaco": 102,
+            "temperatura": 36.1,
+            "presion": "125/78",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:36",
+        "datos": {
+            "ritmo_cardiaco": 100,
+            "temperatura": 37.7,
+            "presion": "112/84",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:46",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 38.0,
+            "presion": "119/70",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:11:56",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 38.7,
+            "presion": "129/70",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:06",
+        "datos": {
+            "ritmo_cardiaco": 98,
+            "temperatura": 39.0,
+            "presion": "116/75",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:16",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 38.7,
+            "presion": "120/79",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:26",
+        "datos": {
+            "ritmo_cardiaco": 77,
+            "temperatura": 38.3,
+            "presion": "109/71",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:36",
+        "datos": {
+            "ritmo_cardiaco": 87,
+            "temperatura": 37.3,
+            "presion": "111/84",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:45",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 36.5,
+            "presion": "105/85",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:12:55",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 38.6,
+            "presion": "101/79",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:05",
+        "datos": {
+            "ritmo_cardiaco": 67,
+            "temperatura": 37.9,
+            "presion": "108/89",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:15",
+        "datos": {
+            "ritmo_cardiaco": 99,
+            "temperatura": 38.0,
+            "presion": "101/78",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:25",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 36.9,
+            "presion": "101/76",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:35",
+        "datos": {
+            "ritmo_cardiaco": 114,
+            "temperatura": 37.5,
+            "presion": "118/74",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:44",
+        "datos": {
+            "ritmo_cardiaco": 104,
+            "temperatura": 37.1,
+            "presion": "100/87",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:13:54",
+        "datos": {
+            "ritmo_cardiaco": 60,
+            "temperatura": 36.0,
+            "presion": "107/70",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:04",
+        "datos": {
+            "ritmo_cardiaco": 74,
+            "temperatura": 38.9,
+            "presion": "105/71",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:14",
+        "datos": {
+            "ritmo_cardiaco": 75,
+            "temperatura": 36.3,
+            "presion": "104/85",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:23",
+        "datos": {
+            "ritmo_cardiaco": 105,
+            "temperatura": 37.4,
+            "presion": "100/79",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:34",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 37.1,
+            "presion": "130/87",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:44",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 36.5,
+            "presion": "102/77",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:14:53",
+        "datos": {
+            "ritmo_cardiaco": 78,
+            "temperatura": 36.2,
+            "presion": "110/87",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:03",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 38.6,
+            "presion": "114/71",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:13",
+        "datos": {
+            "ritmo_cardiaco": 69,
+            "temperatura": 38.6,
+            "presion": "127/83",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:22",
+        "datos": {
+            "ritmo_cardiaco": 90,
+            "temperatura": 37.9,
+            "presion": "110/87",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:32",
+        "datos": {
+            "ritmo_cardiaco": 99,
+            "temperatura": 36.2,
+            "presion": "122/83",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:42",
+        "datos": {
+            "ritmo_cardiaco": 112,
+            "temperatura": 36.9,
+            "presion": "118/76",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:15:51",
+        "datos": {
+            "ritmo_cardiaco": 120,
+            "temperatura": 38.6,
+            "presion": "120/72",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:01",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 38.4,
+            "presion": "123/77",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:11",
+        "datos": {
+            "ritmo_cardiaco": 75,
+            "temperatura": 36.8,
+            "presion": "109/83",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:22",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 37.4,
+            "presion": "102/87",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:31",
+        "datos": {
+            "ritmo_cardiaco": 90,
+            "temperatura": 37.5,
+            "presion": "123/80",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:41",
+        "datos": {
+            "ritmo_cardiaco": 85,
+            "temperatura": 37.1,
+            "presion": "130/82",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:16:51",
+        "datos": {
+            "ritmo_cardiaco": 80,
+            "temperatura": 38.6,
+            "presion": "124/87",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:00",
+        "datos": {
+            "ritmo_cardiaco": 108,
+            "temperatura": 38.8,
+            "presion": "114/74",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:10",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 38.0,
+            "presion": "111/84",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:20",
+        "datos": {
+            "ritmo_cardiaco": 66,
+            "temperatura": 38.4,
+            "presion": "116/77",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:29",
+        "datos": {
+            "ritmo_cardiaco": 67,
+            "temperatura": 36.5,
+            "presion": "118/83",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:39",
+        "datos": {
+            "ritmo_cardiaco": 109,
+            "temperatura": 36.7,
+            "presion": "101/74",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:49",
+        "datos": {
+            "ritmo_cardiaco": 102,
+            "temperatura": 38.4,
+            "presion": "115/79",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:17:59",
+        "datos": {
+            "ritmo_cardiaco": 85,
+            "temperatura": 38.3,
+            "presion": "129/89",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:09",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 37.2,
+            "presion": "105/85",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:19",
+        "datos": {
+            "ritmo_cardiaco": 60,
+            "temperatura": 36.3,
+            "presion": "112/72",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:29",
+        "datos": {
+            "ritmo_cardiaco": 95,
+            "temperatura": 38.0,
+            "presion": "100/85",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:38",
+        "datos": {
+            "ritmo_cardiaco": 112,
+            "temperatura": 37.0,
+            "presion": "102/85",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:48",
+        "datos": {
+            "ritmo_cardiaco": 74,
+            "temperatura": 36.2,
+            "presion": "107/70",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:18:58",
+        "datos": {
+            "ritmo_cardiaco": 61,
+            "temperatura": 38.6,
+            "presion": "120/90",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:07",
+        "datos": {
+            "ritmo_cardiaco": 86,
+            "temperatura": 38.1,
+            "presion": "124/72",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:17",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 36.8,
+            "presion": "104/87",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:27",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 36.6,
+            "presion": "116/73",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:37",
+        "datos": {
+            "ritmo_cardiaco": 62,
+            "temperatura": 36.7,
+            "presion": "110/80",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:47",
+        "datos": {
+            "ritmo_cardiaco": 107,
+            "temperatura": 37.5,
+            "presion": "117/89",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:19:57",
+        "datos": {
+            "ritmo_cardiaco": 75,
+            "temperatura": 38.6,
+            "presion": "126/89",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:06",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 37.3,
+            "presion": "124/71",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:16",
+        "datos": {
+            "ritmo_cardiaco": 64,
+            "temperatura": 38.3,
+            "presion": "119/72",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:26",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 38.5,
+            "presion": "114/82",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:35",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 37.6,
+            "presion": "124/90",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:45",
+        "datos": {
+            "ritmo_cardiaco": 78,
+            "temperatura": 38.1,
+            "presion": "120/82",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:20:55",
+        "datos": {
+            "ritmo_cardiaco": 69,
+            "temperatura": 38.6,
+            "presion": "117/86",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:05",
+        "datos": {
+            "ritmo_cardiaco": 92,
+            "temperatura": 37.4,
+            "presion": "112/88",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:14",
+        "datos": {
+            "ritmo_cardiaco": 74,
+            "temperatura": 36.8,
+            "presion": "121/79",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:25",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 38.7,
+            "presion": "111/71",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:35",
+        "datos": {
+            "ritmo_cardiaco": 98,
+            "temperatura": 36.0,
+            "presion": "103/75",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:44",
+        "datos": {
+            "ritmo_cardiaco": 106,
+            "temperatura": 38.7,
+            "presion": "112/71",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:21:54",
+        "datos": {
+            "ritmo_cardiaco": 73,
+            "temperatura": 36.6,
+            "presion": "121/87",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:04",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 36.5,
+            "presion": "104/86",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:13",
+        "datos": {
+            "ritmo_cardiaco": 73,
+            "temperatura": 36.6,
+            "presion": "129/83",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:23",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 37.6,
+            "presion": "111/79",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:33",
+        "datos": {
+            "ritmo_cardiaco": 107,
+            "temperatura": 36.4,
+            "presion": "130/79",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:42",
+        "datos": {
+            "ritmo_cardiaco": 95,
+            "temperatura": 38.6,
+            "presion": "121/76",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:22:52",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 36.8,
+            "presion": "130/84",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:02",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 38.0,
+            "presion": "127/83",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:12",
+        "datos": {
+            "ritmo_cardiaco": 74,
+            "temperatura": 38.4,
+            "presion": "106/89",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:22",
+        "datos": {
+            "ritmo_cardiaco": 90,
+            "temperatura": 37.7,
+            "presion": "102/86",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:32",
+        "datos": {
+            "ritmo_cardiaco": 60,
+            "temperatura": 38.5,
+            "presion": "127/73",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:42",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 37.2,
+            "presion": "105/70",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:23:51",
+        "datos": {
+            "ritmo_cardiaco": 83,
+            "temperatura": 37.9,
+            "presion": "103/88",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:01",
+        "datos": {
+            "ritmo_cardiaco": 61,
+            "temperatura": 38.2,
+            "presion": "113/88",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:11",
+        "datos": {
+            "ritmo_cardiaco": 67,
+            "temperatura": 37.7,
+            "presion": "112/89",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:20",
+        "datos": {
+            "ritmo_cardiaco": 108,
+            "temperatura": 38.7,
+            "presion": "127/75",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:30",
+        "datos": {
+            "ritmo_cardiaco": 82,
+            "temperatura": 39.0,
+            "presion": "112/84",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:40",
+        "datos": {
+            "ritmo_cardiaco": 77,
+            "temperatura": 37.3,
+            "presion": "118/76",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:49",
+        "datos": {
+            "ritmo_cardiaco": 65,
+            "temperatura": 38.8,
+            "presion": "110/76",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:24:59",
+        "datos": {
+            "ritmo_cardiaco": 64,
+            "temperatura": 36.5,
+            "presion": "117/71",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:09",
+        "datos": {
+            "ritmo_cardiaco": 66,
+            "temperatura": 38.3,
+            "presion": "122/81",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:19",
+        "datos": {
+            "ritmo_cardiaco": 100,
+            "temperatura": 37.9,
+            "presion": "102/90",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:29",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 38.5,
+            "presion": "116/90",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:39",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 37.8,
+            "presion": "114/75",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:49",
+        "datos": {
+            "ritmo_cardiaco": 61,
+            "temperatura": 38.7,
+            "presion": "106/71",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:25:58",
+        "datos": {
+            "ritmo_cardiaco": 80,
+            "temperatura": 38.0,
+            "presion": "102/73",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:08",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 36.6,
+            "presion": "100/77",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:18",
+        "datos": {
+            "ritmo_cardiaco": 92,
+            "temperatura": 36.6,
+            "presion": "115/81",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:27",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 36.2,
+            "presion": "114/76",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:37",
+        "datos": {
+            "ritmo_cardiaco": 67,
+            "temperatura": 37.8,
+            "presion": "104/90",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:47",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 38.8,
+            "presion": "111/74",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:26:56",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 36.3,
+            "presion": "102/83",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:06",
+        "datos": {
+            "ritmo_cardiaco": 114,
+            "temperatura": 36.9,
+            "presion": "119/88",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:16",
+        "datos": {
+            "ritmo_cardiaco": 67,
+            "temperatura": 37.8,
+            "presion": "109/85",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:27",
+        "datos": {
+            "ritmo_cardiaco": 110,
+            "temperatura": 37.8,
+            "presion": "114/87",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:37",
+        "datos": {
+            "ritmo_cardiaco": 69,
+            "temperatura": 36.3,
+            "presion": "112/81",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:47",
+        "datos": {
+            "ritmo_cardiaco": 109,
+            "temperatura": 37.0,
+            "presion": "104/82",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:27:57",
+        "datos": {
+            "ritmo_cardiaco": 95,
+            "temperatura": 37.7,
+            "presion": "109/83",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:05",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 38.5,
+            "presion": "101/76",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:15",
+        "datos": {
+            "ritmo_cardiaco": 75,
+            "temperatura": 36.5,
+            "presion": "109/87",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:25",
+        "datos": {
+            "ritmo_cardiaco": 71,
+            "temperatura": 37.7,
+            "presion": "121/75",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:34",
+        "datos": {
+            "ritmo_cardiaco": 81,
+            "temperatura": 36.5,
+            "presion": "100/86",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:44",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 38.0,
+            "presion": "103/72",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:28:54",
+        "datos": {
+            "ritmo_cardiaco": 83,
+            "temperatura": 38.0,
+            "presion": "114/73",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:04",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 38.8,
+            "presion": "130/74",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:14",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 36.8,
+            "presion": "114/76",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:24",
+        "datos": {
+            "ritmo_cardiaco": 72,
+            "temperatura": 36.6,
+            "presion": "110/70",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:33",
+        "datos": {
+            "ritmo_cardiaco": 86,
+            "temperatura": 37.5,
+            "presion": "116/78",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:43",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 37.3,
+            "presion": "109/84",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:29:53",
+        "datos": {
+            "ritmo_cardiaco": 104,
+            "temperatura": 36.3,
+            "presion": "128/74",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:30:12",
+        "datos": {
+            "ritmo_cardiaco": 62,
+            "temperatura": 38.2,
+            "presion": "113/72",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:30:22",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 37.2,
+            "presion": "108/82",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:30:32",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 36.7,
+            "presion": "119/73",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:30:41",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 37.6,
+            "presion": "121/76",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:30:51",
+        "datos": {
+            "ritmo_cardiaco": 103,
+            "temperatura": 38.8,
+            "presion": "122/77",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:02",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 36.9,
+            "presion": "130/77",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:11",
+        "datos": {
+            "ritmo_cardiaco": 96,
+            "temperatura": 36.3,
+            "presion": "117/86",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:21",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 37.5,
+            "presion": "100/74",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:31",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 37.2,
+            "presion": "119/80",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:40",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 38.7,
+            "presion": "125/75",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:31:50",
+        "datos": {
+            "ritmo_cardiaco": 74,
+            "temperatura": 37.3,
+            "presion": "110/72",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:00",
+        "datos": {
+            "ritmo_cardiaco": 78,
+            "temperatura": 36.9,
+            "presion": "118/84",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:09",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 36.7,
+            "presion": "123/75",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:19",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 38.3,
+            "presion": "130/72",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:29",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 38.0,
+            "presion": "115/75",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:39",
+        "datos": {
+            "ritmo_cardiaco": 105,
+            "temperatura": 38.7,
+            "presion": "117/76",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:32:50",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 36.0,
+            "presion": "119/72",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:00",
+        "datos": {
+            "ritmo_cardiaco": 112,
+            "temperatura": 36.9,
+            "presion": "100/76",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:10",
+        "datos": {
+            "ritmo_cardiaco": 90,
+            "temperatura": 37.7,
+            "presion": "109/89",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:19",
+        "datos": {
+            "ritmo_cardiaco": 84,
+            "temperatura": 38.8,
+            "presion": "113/86",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:29",
+        "datos": {
+            "ritmo_cardiaco": 111,
+            "temperatura": 38.2,
+            "presion": "112/75",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:39",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 36.6,
+            "presion": "122/85",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:48",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 36.4,
+            "presion": "120/82",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:33:58",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 37.9,
+            "presion": "119/75",
+            "oxigeno": 94
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:08",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 37.1,
+            "presion": "112/75",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:17",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 36.6,
+            "presion": "100/70",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:27",
+        "datos": {
+            "ritmo_cardiaco": 110,
+            "temperatura": 36.1,
+            "presion": "116/79",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:37",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 36.5,
+            "presion": "123/89",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:47",
+        "datos": {
+            "ritmo_cardiaco": 68,
+            "temperatura": 37.8,
+            "presion": "104/71",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:34:57",
+        "datos": {
+            "ritmo_cardiaco": 96,
+            "temperatura": 38.6,
+            "presion": "113/79",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:07",
+        "datos": {
+            "ritmo_cardiaco": 82,
+            "temperatura": 38.2,
+            "presion": "111/70",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:17",
+        "datos": {
+            "ritmo_cardiaco": 103,
+            "temperatura": 36.3,
+            "presion": "107/78",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:26",
+        "datos": {
+            "ritmo_cardiaco": 82,
+            "temperatura": 37.9,
+            "presion": "118/86",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:36",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 38.9,
+            "presion": "113/86",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:46",
+        "datos": {
+            "ritmo_cardiaco": 115,
+            "temperatura": 38.9,
+            "presion": "106/82",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:35:55",
+        "datos": {
+            "ritmo_cardiaco": 95,
+            "temperatura": 36.2,
+            "presion": "101/78",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:05",
+        "datos": {
+            "ritmo_cardiaco": 108,
+            "temperatura": 37.9,
+            "presion": "129/78",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:15",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 36.6,
+            "presion": "111/70",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:25",
+        "datos": {
+            "ritmo_cardiaco": 84,
+            "temperatura": 36.1,
+            "presion": "104/74",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:35",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 37.7,
+            "presion": "117/75",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:45",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 37.0,
+            "presion": "113/70",
+            "oxigeno": 92
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:36:54",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 37.5,
+            "presion": "129/85",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:04",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 36.4,
+            "presion": "120/73",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:14",
+        "datos": {
+            "ritmo_cardiaco": 76,
+            "temperatura": 37.1,
+            "presion": "120/80",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:24",
+        "datos": {
+            "ritmo_cardiaco": 119,
+            "temperatura": 37.7,
+            "presion": "112/72",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:33",
+        "datos": {
+            "ritmo_cardiaco": 94,
+            "temperatura": 36.8,
+            "presion": "107/75",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:43",
+        "datos": {
+            "ritmo_cardiaco": 116,
+            "temperatura": 37.2,
+            "presion": "113/90",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:37:53",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 37.0,
+            "presion": "109/88",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:02",
+        "datos": {
+            "ritmo_cardiaco": 60,
+            "temperatura": 37.7,
+            "presion": "106/78",
+            "oxigeno": 95
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:12",
+        "datos": {
+            "ritmo_cardiaco": 63,
+            "temperatura": 38.7,
+            "presion": "127/82",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:22",
+        "datos": {
+            "ritmo_cardiaco": 85,
+            "temperatura": 38.8,
+            "presion": "110/86",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:31",
+        "datos": {
+            "ritmo_cardiaco": 66,
+            "temperatura": 38.6,
+            "presion": "116/86",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:41",
+        "datos": {
+            "ritmo_cardiaco": 86,
+            "temperatura": 36.4,
+            "presion": "124/89",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:38:51",
+        "datos": {
+            "ritmo_cardiaco": 107,
+            "temperatura": 36.6,
+            "presion": "113/87",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:01",
+        "datos": {
+            "ritmo_cardiaco": 92,
+            "temperatura": 37.7,
+            "presion": "104/76",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:11",
+        "datos": {
+            "ritmo_cardiaco": 89,
+            "temperatura": 36.7,
+            "presion": "115/71",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:21",
+        "datos": {
+            "ritmo_cardiaco": 91,
+            "temperatura": 36.3,
+            "presion": "129/73",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:30",
+        "datos": {
+            "ritmo_cardiaco": 93,
+            "temperatura": 38.1,
+            "presion": "113/79",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:40",
+        "datos": {
+            "ritmo_cardiaco": 71,
+            "temperatura": 36.2,
+            "presion": "116/72",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:39:50",
+        "datos": {
+            "ritmo_cardiaco": 106,
+            "temperatura": 36.4,
+            "presion": "120/86",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:40:00",
+        "datos": {
+            "ritmo_cardiaco": 97,
+            "temperatura": 36.9,
+            "presion": "127/79",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:40:09",
+        "datos": {
+            "ritmo_cardiaco": 95,
+            "temperatura": 38.6,
+            "presion": "115/72",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:41:28",
+        "datos": {
+            "ritmo_cardiaco": 72,
+            "temperatura": 37.1,
+            "presion": "108/85",
+            "oxigeno": 98
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:41:37",
+        "datos": {
+            "ritmo_cardiaco": 97,
+            "temperatura": 36.9,
+            "presion": "122/90",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:41:47",
+        "datos": {
+            "ritmo_cardiaco": 117,
+            "temperatura": 37.1,
+            "presion": "123/79",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:41:57",
+        "datos": {
+            "ritmo_cardiaco": 113,
+            "temperatura": 38.2,
+            "presion": "122/73",
+            "oxigeno": 93
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:07",
+        "datos": {
+            "ritmo_cardiaco": 105,
+            "temperatura": 38.3,
+            "presion": "107/70",
+            "oxigeno": 90
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:16",
+        "datos": {
+            "ritmo_cardiaco": 96,
+            "temperatura": 36.5,
+            "presion": "100/73",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:26",
+        "datos": {
+            "ritmo_cardiaco": 87,
+            "temperatura": 36.6,
+            "presion": "127/76",
+            "oxigeno": 91
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:36",
+        "datos": {
+            "ritmo_cardiaco": 80,
+            "temperatura": 36.8,
+            "presion": "100/90",
+            "oxigeno": 99
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:45",
+        "datos": {
+            "ritmo_cardiaco": 99,
+            "temperatura": 37.0,
+            "presion": "117/83",
+            "oxigeno": 100
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:42:55",
+        "datos": {
+            "ritmo_cardiaco": 78,
+            "temperatura": 37.2,
+            "presion": "120/72",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:43:05",
+        "datos": {
+            "ritmo_cardiaco": 80,
+            "temperatura": 37.6,
+            "presion": "112/71",
+            "oxigeno": 96
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:43:14",
+        "datos": {
+            "ritmo_cardiaco": 101,
+            "temperatura": 38.6,
+            "presion": "127/83",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+            "🌡️ Fiebre detectada"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 17:43:24",
+        "datos": {
+            "ritmo_cardiaco": 110,
+            "temperatura": 36.5,
+            "presion": "122/73",
+            "oxigeno": 97
+        },
+        "alertas": [
+            "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:21:44",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 37.7,
+                "presion": "109/79",
+                "oxigeno": 98,
+                "timestamp": "2025-10-26 18:21:44"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:21:53",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 74,
+                "temperatura": 36.7,
+                "presion": "115/71",
+                "oxigeno": 93,
+                "timestamp": "2025-10-26 18:21:53"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:03",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 88,
+                "temperatura": 38.3,
+                "presion": "113/83",
+                "oxigeno": 100,
+                "timestamp": "2025-10-26 18:22:03"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:13",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 67,
+                "temperatura": 36.8,
+                "presion": "115/73",
+                "oxigeno": 98,
+                "timestamp": "2025-10-26 18:22:13"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:23",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 37.9,
+                "presion": "105/90",
+                "oxigeno": 97,
+                "timestamp": "2025-10-26 18:22:23"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:32",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 83,
+                "temperatura": 36.5,
+                "presion": "110/89",
+                "oxigeno": 96,
+                "timestamp": "2025-10-26 18:22:32"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:42",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 37.8,
+                "presion": "117/72",
+                "oxigeno": 90,
+                "timestamp": "2025-10-26 18:22:42"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:22:52",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 38.6,
+                "presion": "106/89",
+                "oxigeno": 99,
+                "timestamp": "2025-10-26 18:22:52"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:01",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 37.8,
+                "presion": "125/80",
+                "oxigeno": 91,
+                "timestamp": "2025-10-26 18:23:01"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:11",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 36.3,
+                "presion": "103/87",
+                "oxigeno": 99,
+                "timestamp": "2025-10-26 18:23:11"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:22",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 38.7,
+                "presion": "113/90",
+                "oxigeno": 99,
+                "timestamp": "2025-10-26 18:23:22"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:31",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 86,
+                "temperatura": 36.6,
+                "presion": "107/70",
+                "oxigeno": 92,
+                "timestamp": "2025-10-26 18:23:31"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:41",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 103,
+                "temperatura": 36.3,
+                "presion": "104/88",
+                "oxigeno": 96,
+                "timestamp": "2025-10-26 18:23:41"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:23:51",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 98,
+                "temperatura": 36.7,
+                "presion": "125/90",
+                "oxigeno": 94,
+                "timestamp": "2025-10-26 18:23:51"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:00",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 37.6,
+                "presion": "110/83",
+                "oxigeno": 99,
+                "timestamp": "2025-10-26 18:24:00"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:10",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 75,
+                "temperatura": 37.1,
+                "presion": "107/80",
+                "oxigeno": 91,
+                "timestamp": "2025-10-26 18:24:10"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:20",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 37.8,
+                "presion": "102/73",
+                "oxigeno": 95,
+                "timestamp": "2025-10-26 18:24:20"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:30",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 37.8,
+                "presion": "129/80",
+                "oxigeno": 96,
+                "timestamp": "2025-10-26 18:24:30"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:39",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 105,
+                "temperatura": 38.5,
+                "presion": "119/74",
+                "oxigeno": 93,
+                "timestamp": "2025-10-26 18:24:39"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:49",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 81,
+                "temperatura": 36.2,
+                "presion": "115/78",
+                "oxigeno": 91,
+                "timestamp": "2025-10-26 18:24:49"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:24:59",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 84,
+                "temperatura": 37.8,
+                "presion": "109/80",
+                "oxigeno": 98,
+                "timestamp": "2025-10-26 18:24:59"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:25:09",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 38.3,
+                "presion": "129/72",
+                "oxigeno": 94,
+                "timestamp": "2025-10-26 18:25:09"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:25:18",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 69,
+                "temperatura": 37.0,
+                "presion": "115/77",
+                "oxigeno": 93,
+                "timestamp": "2025-10-26 18:25:18"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:25:28",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.4,
+                "presion": "113/79",
+                "oxigeno": 94,
+                "timestamp": "2025-10-26 18:25:28"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:25:38",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 66,
+                "temperatura": 36.2,
+                "presion": "114/71",
+                "oxigeno": 95,
+                "timestamp": "2025-10-26 18:25:38"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:06",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 85,
+                "temperatura": 37.7,
+                "presion": "108/72",
+                "oxigeno": 95,
+                "timestamp": "2025-10-26 18:32:05",
+                "_id": "68feaf751f81787064028fb9"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:16",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 66,
+                "temperatura": 37.2,
+                "presion": "121/89",
+                "oxigeno": 93,
+                "timestamp": "2025-10-26 18:32:16",
+                "_id": "68feaf801f81787064028fba"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:28",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 73,
+                "temperatura": 36.1,
+                "presion": "115/73",
+                "oxigeno": 95,
+                "timestamp": "2025-10-26 18:32:26",
+                "_id": "68feaf8a7d39c455c7dc070c"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:37",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 73,
+                "temperatura": 37.3,
+                "presion": "116/88",
+                "oxigeno": 98,
+                "timestamp": "2025-10-26 18:32:37",
+                "_id": "68feaf957d39c455c7dc070d"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:48",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 38.5,
+                "presion": "109/82",
+                "oxigeno": 96,
+                "timestamp": "2025-10-26 18:32:48",
+                "_id": "68feafa07d39c455c7dc070e"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:32:58",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.2,
+                "presion": "105/85",
+                "oxigeno": 96,
+                "timestamp": "2025-10-26 18:32:58",
+                "_id": "68feafaa7d39c455c7dc070f"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:33:08",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 99,
+                "temperatura": 38.1,
+                "presion": "130/83",
+                "oxigeno": 90,
+                "timestamp": "2025-10-26 18:33:07",
+                "_id": "68feafb37d39c455c7dc0710"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:33:18",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 91,
+                "temperatura": 37.4,
+                "presion": "127/80",
+                "oxigeno": 95,
+                "timestamp": "2025-10-26 18:33:18",
+                "_id": "68feafbe7d39c455c7dc0711"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:33:29",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 70,
+                "temperatura": 36.3,
+                "presion": "122/80",
+                "oxigeno": 93,
+                "timestamp": "2025-10-26 18:33:28",
+                "_id": "68feafc87d39c455c7dc0712"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:33:39",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 38.4,
+                "presion": "101/73",
+                "oxigeno": 97,
+                "timestamp": "2025-10-26 18:33:39",
+                "_id": "68feafd37d39c455c7dc0714"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-26 18:33:49",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 66,
+                "temperatura": 38.6,
+                "presion": "116/80",
+                "oxigeno": 97,
+                "timestamp": "2025-10-26 18:33:49",
+                "_id": "68feafdd7d39c455c7dc0715"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    }
+]
