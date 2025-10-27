@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-import os
-SERVICE2_URL = os.getenv("NAME2_SERVICE_URL", "http://service2-service:8003/historial")
+SERVICE2_URL = "http://127.0.0.1:8002/historial"
 
 @app.route("/")
 def home():

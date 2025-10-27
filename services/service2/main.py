@@ -7,7 +7,7 @@ import os
 
 app = FastAPI(title="Servicio 2 - Análisis de Datos de Salud")
 
-SERVICE1_URL = os.getenv("NAME1_SERVICE_URL", "http://service1-service:8002/health-data")
+SERVICE1_URL = os.getenv("NAME1_SERVICE_URL", "http://127.0.0.1:8001/health-data")
 DATA_FILE = "data_history.json"
 data_history = []
 
