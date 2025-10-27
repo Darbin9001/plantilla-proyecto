@@ -1,5 +1,4 @@
 services:
-
   frontend:
     build: ./frontend
     container_name: frontend
@@ -15,59 +14,47 @@ services:
     container_name: api-gateway
     ports:
       - "8000:8000"
+    environment:
+      - AUTH_SERVICE_URL=http://auth-service:8001
+      - NAME1_SERVICE_URL=http://service1-service:8002
+      - NAME2_SERVICE_URL=http://service2-service:8003
+      - NAME3_SERVICE_URL=http://service3-service:8004
     depends_on:
       - auth-service
-    # Aquí puedes agregar los otros servicios base
+      - service1-service
+      - service2-service
+      - service3-service
 
-  # Microservicio de Autenticación
   auth-service:
     build: ./services/authentication
     container_name: auth-service
     ports:
       - "8001:8001"
     environment:
-      - DATABASE_URL=mongodb://auth-db:27017/auth_db
-    depends_on:
-      - auth-db
+      - MONGO_URI=${MONGO_URI}
+      - DB_NAME=${DB_NAME}
 
-  # Base de datos para el servicio de autenticación
-  auth-db:
-    image: mongo:latest
-    container_name: auth-db
-    ports:
-      - "27017:27017"
-    volumes:
-      - auth_data:/data/db
-
-  # --- Plantillas de Microservicios ---
-  # TODO: Copiar y modificar "service1" para cada servicio según el tema seleccionado
-  
-  # Microservicio de Nombre_del_microservicio
   service1-service:
-     build: ./services/service1 
-     container_name: service1-service
-     ports:
-       - "8002:8002"
-     environment:
-       - DATABASE_URL=postgresql://user:password@service1-db:5432/service1_db
-     depends_on:
-       - service1-db
+    build: ./services/service1
+    container_name: service1-service
+    ports:
+      - "8002:8002"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+      - DB_NAME=${DB_NAME}
 
-  # Base de datos para el servicio1
-  service1-db:
-     image: postgres:latest
-     container_name: service1-db
-     environment:
-       - POSTGRES_USER=user
-       - POSTGRES_PASSWORD=password
-       - POSTGRES_DB=service1_db
-     ports:
-       - "5432:5432"
-     volumes:
-       - service1_data:/var/lib/postgresql/data
+  service2-service:
+    build: ./services/service2
+    container_name: service2-service
+    ports:
+      - "8003:8003"
+    environment:
+      - NAME1_SERVICE_URL=http://service1-service:8002/health-data
 
-volumes:
-  auth_data:
-  service1_data:
-  service2_data:
-  service3_data:
+  service3-service:
+    build: ./services/service3
+    container_name: service3-service
+    ports:
+      - "8004:8004"
+
+# No se requieren volúmenes para bases de datos locales si usas Atlas
