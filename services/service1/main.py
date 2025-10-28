@@ -3,9 +3,20 @@ import random
 from datetime import datetime
 from services.data_base_mongo import db
 from services.utils import serialize_mongo
+from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(title="Servicio 1 - Generador de Datos de Salud")
+
+# --- HABILITAR CORS ---
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 🔓 Permite cualquier origen (para desarrollo)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+# ----------------------
 
 @app.get("/")
 def root():

@@ -21,7 +21,7 @@ let tempChart = new Chart(tempCtx, {
 
 async function updateCharts() {
   try {
-    const res = await fetch('/api/data');
+    const res = await fetch('http://127.0.0.1:8001/health-data');
     const data = await res.json();
 
     if (Array.isArray(data) && data.length > 0) {
