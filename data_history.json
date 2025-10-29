@@ -1,226 +1,5 @@
 [
     {
-        "timestamp": "2025-10-27 21:11:51",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 78,
-                "temperatura": 36.8,
-                "presion": "115/88",
-                "oxigeno": 99,
-                "timestamp": "2025-10-27 21:11:50",
-                "_id": "690026661b7067fca14ee4ad"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:01",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 103,
-                "temperatura": 39.0,
-                "presion": "112/74",
-                "oxigeno": 99,
-                "timestamp": "2025-10-27 21:12:01",
-                "_id": "690026711b7067fca14ee4ae"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:09",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 115,
-                "temperatura": 38.4,
-                "presion": "128/89",
-                "oxigeno": 93,
-                "timestamp": "2025-10-27 21:12:09",
-                "_id": "690026791b7067fca14ee4af"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:19",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "111/77",
-                "oxigeno": 93,
-                "timestamp": "2025-10-27 21:12:19",
-                "_id": "690026831b7067fca14ee4b0"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:29",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 78,
-                "temperatura": 38.7,
-                "presion": "116/87",
-                "oxigeno": 97,
-                "timestamp": "2025-10-27 21:12:29",
-                "_id": "6900268d1b7067fca14ee4b1"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:38",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 88,
-                "temperatura": 38.9,
-                "presion": "128/84",
-                "oxigeno": 99,
-                "timestamp": "2025-10-27 21:12:37",
-                "_id": "690026951b7067fca14ee4b2"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:48",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 120,
-                "temperatura": 36.7,
-                "presion": "120/86",
-                "oxigeno": 94,
-                "timestamp": "2025-10-27 21:12:48",
-                "_id": "690026a01b7067fca14ee4b3"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:12:58",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 67,
-                "temperatura": 38.1,
-                "presion": "111/79",
-                "oxigeno": 94,
-                "timestamp": "2025-10-27 21:12:58",
-                "_id": "690026aa1b7067fca14ee4b4"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:13:06",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 93,
-                "temperatura": 38.5,
-                "presion": "128/84",
-                "oxigeno": 98,
-                "timestamp": "2025-10-27 21:13:06",
-                "_id": "690026b21b7067fca14ee4b5"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:13:17",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 64,
-                "temperatura": 36.3,
-                "presion": "112/82",
-                "oxigeno": 95,
-                "timestamp": "2025-10-27 21:13:17",
-                "_id": "690026bd1b7067fca14ee4b6"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:13:27",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 101,
-                "temperatura": 38.5,
-                "presion": "111/81",
-                "oxigeno": 100,
-                "timestamp": "2025-10-27 21:13:27",
-                "_id": "690026c71b7067fca14ee4b7"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:13:37",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 113,
-                "temperatura": 37.1,
-                "presion": "107/87",
-                "oxigeno": 98,
-                "timestamp": "2025-10-27 21:13:37",
-                "_id": "690026d11b7067fca14ee4b8"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
-        "timestamp": "2025-10-27 21:13:47",
-        "datos": {
-            "status": "ok",
-            "lectura": {
-                "ritmo_cardiaco": 70,
-                "temperatura": 37.7,
-                "presion": "120/76",
-                "oxigeno": 97,
-                "timestamp": "2025-10-27 21:13:47",
-                "_id": "690026db1b7067fca14ee4ba"
-            }
-        },
-        "alertas": [
-            "✅ Todo en rangos normales"
-        ]
-    },
-    {
         "timestamp": "2025-10-27 21:13:57",
         "datos": {
             "status": "ok",
@@ -13151,6 +12930,1536 @@
                 "oxigeno": 97,
                 "timestamp": "2025-10-28 18:19:23",
                 "_id": "69014f7bd15939d64b1bce89"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:19:34",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 110,
+                "temperatura": 37.3,
+                "presion": "102/73",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:19:33",
+                "_id": "69014f85d15939d64b1bce8e"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:19:44",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 81,
+                "temperatura": 38.3,
+                "presion": "125/74",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:19:44",
+                "_id": "69014f90d15939d64b1bce91"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:19:54",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 38.1,
+                "presion": "111/89",
+                "oxigeno": 100,
+                "timestamp": "2025-10-28 18:19:54",
+                "_id": "69014f9ad15939d64b1bce94"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:04",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 37.0,
+                "presion": "123/78",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:20:04",
+                "_id": "69014fa4d15939d64b1bce97"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:14",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 37.2,
+                "presion": "128/82",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:20:14",
+                "_id": "69014faed15939d64b1bce9a"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:24",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 36.1,
+                "presion": "115/82",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:20:24",
+                "_id": "69014fb8d15939d64b1bce9b"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:34",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.9,
+                "presion": "116/85",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:20:34",
+                "_id": "69014fc2d15939d64b1bce9f"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:45",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 75,
+                "temperatura": 36.1,
+                "presion": "122/90",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:20:44",
+                "_id": "69014fccd15939d64b1bcea0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:20:57",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.0,
+                "presion": "113/84",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:20:56",
+                "_id": "69014fd83886b620cc7d125f"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:07",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 107,
+                "temperatura": 36.6,
+                "presion": "120/85",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:21:07",
+                "_id": "69014fe33886b620cc7d1260"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:17",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 105,
+                "temperatura": 38.7,
+                "presion": "107/70",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:21:17",
+                "_id": "69014fed3886b620cc7d1261"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:27",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 63,
+                "temperatura": 37.7,
+                "presion": "116/73",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:21:27",
+                "_id": "69014ff73886b620cc7d1262"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:38",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 74,
+                "temperatura": 37.5,
+                "presion": "125/85",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:21:37",
+                "_id": "690150013886b620cc7d1266"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:48",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 62,
+                "temperatura": 38.2,
+                "presion": "128/74",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:21:48",
+                "_id": "6901500c3886b620cc7d1267"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:21:58",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 37.5,
+                "presion": "123/84",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:21:58",
+                "_id": "690150163886b620cc7d1268"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:08",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 78,
+                "temperatura": 37.5,
+                "presion": "115/84",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:22:08",
+                "_id": "690150203886b620cc7d1269"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:18",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 38.1,
+                "presion": "116/70",
+                "oxigeno": 100,
+                "timestamp": "2025-10-28 18:22:18",
+                "_id": "6901502a3886b620cc7d126a"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:29",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 97,
+                "temperatura": 36.9,
+                "presion": "121/79",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:22:29",
+                "_id": "690150353886b620cc7d126e"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:39",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 63,
+                "temperatura": 37.0,
+                "presion": "107/85",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:22:39",
+                "_id": "6901503f3886b620cc7d126f"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:49",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.6,
+                "presion": "117/84",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:22:49",
+                "_id": "690150493886b620cc7d1270"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:22:59",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 120,
+                "temperatura": 38.9,
+                "presion": "120/73",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:22:59",
+                "_id": "690150533886b620cc7d1271"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:23:09",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 110,
+                "temperatura": 38.1,
+                "presion": "121/88",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:23:09",
+                "_id": "6901505d3886b620cc7d1272"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:23:19",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 86,
+                "temperatura": 36.0,
+                "presion": "102/74",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:23:19",
+                "_id": "690150673886b620cc7d1273"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:23:30",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 36.8,
+                "presion": "105/90",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:23:30",
+                "_id": "690150723886b620cc7d1277"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:23:40",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 96,
+                "temperatura": 38.1,
+                "presion": "118/83",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:23:40",
+                "_id": "6901507c3886b620cc7d1278"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:23:50",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 98,
+                "temperatura": 37.9,
+                "presion": "102/72",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:23:50",
+                "_id": "690150863886b620cc7d1279"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:24:00",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 96,
+                "temperatura": 37.0,
+                "presion": "114/81",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:24:00",
+                "_id": "690150903886b620cc7d127a"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:24:10",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 117,
+                "temperatura": 37.9,
+                "presion": "129/87",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:24:10",
+                "_id": "6901509a3886b620cc7d127b"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:28:44",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 72,
+                "temperatura": 36.9,
+                "presion": "101/87",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:28:40",
+                "_id": "690151a88ce82b2fcbc4fe96"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:28:54",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 64,
+                "temperatura": 37.1,
+                "presion": "115/72",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:28:54",
+                "_id": "690151b68ce82b2fcbc4fe97"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:04",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 115,
+                "temperatura": 38.2,
+                "presion": "127/87",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:29:04",
+                "_id": "690151c08ce82b2fcbc4fe98"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:14",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 97,
+                "temperatura": 38.7,
+                "presion": "118/74",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:29:14",
+                "_id": "690151ca8ce82b2fcbc4fe99"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:24",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 100,
+                "temperatura": 38.9,
+                "presion": "127/70",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:29:24",
+                "_id": "690151d48ce82b2fcbc4fe9a"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:34",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 85,
+                "temperatura": 38.6,
+                "presion": "102/75",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:29:34",
+                "_id": "690151de8ce82b2fcbc4fe9f"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:44",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 117,
+                "temperatura": 36.4,
+                "presion": "130/78",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:29:44",
+                "_id": "690151e88ce82b2fcbc4fea0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:29:55",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 69,
+                "temperatura": 38.1,
+                "presion": "102/78",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:29:55",
+                "_id": "690151f38ce82b2fcbc4fea1"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:05",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.5,
+                "presion": "124/85",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:30:05",
+                "_id": "690151fd8ce82b2fcbc4fea2"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:15",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 107,
+                "temperatura": 37.4,
+                "presion": "115/81",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:30:15",
+                "_id": "690152078ce82b2fcbc4fea4"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:25",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 69,
+                "temperatura": 36.1,
+                "presion": "128/84",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:30:25",
+                "_id": "690152118ce82b2fcbc4fea7"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:35",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 36.3,
+                "presion": "110/71",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:30:35",
+                "_id": "6901521b8ce82b2fcbc4feac"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:46",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 78,
+                "temperatura": 36.7,
+                "presion": "120/79",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:30:45",
+                "_id": "690152258ce82b2fcbc4fead"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:30:56",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 105,
+                "temperatura": 36.4,
+                "presion": "101/78",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:30:56",
+                "_id": "690152308ce82b2fcbc4feae"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:06",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 64,
+                "temperatura": 38.2,
+                "presion": "117/73",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:31:06",
+                "_id": "6901523a8ce82b2fcbc4feaf"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:16",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 37.9,
+                "presion": "130/86",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:31:16",
+                "_id": "690152448ce82b2fcbc4feb0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:26",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 87,
+                "temperatura": 37.5,
+                "presion": "103/85",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:31:26",
+                "_id": "6901524e8ce82b2fcbc4feb1"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:36",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 36.5,
+                "presion": "109/77",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:31:36",
+                "_id": "690152588ce82b2fcbc4feb4"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:47",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 95,
+                "temperatura": 37.0,
+                "presion": "107/83",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:31:47",
+                "_id": "690152638ce82b2fcbc4feb5"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:31:57",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 74,
+                "temperatura": 36.1,
+                "presion": "123/77",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:31:57",
+                "_id": "6901526d8ce82b2fcbc4feb6"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:07",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 96,
+                "temperatura": 37.3,
+                "presion": "117/79",
+                "oxigeno": 98,
+                "timestamp": "2025-10-28 18:32:07",
+                "_id": "690152778ce82b2fcbc4feb8"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:17",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 60,
+                "temperatura": 37.0,
+                "presion": "116/76",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:32:17",
+                "_id": "690152818ce82b2fcbc4feb9"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:27",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 60,
+                "temperatura": 38.7,
+                "presion": "118/84",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:32:27",
+                "_id": "6901528b8ce82b2fcbc4feba"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:37",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 37.0,
+                "presion": "119/71",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:32:37",
+                "_id": "690152958ce82b2fcbc4febc"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:48",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.1,
+                "presion": "109/72",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:32:48",
+                "_id": "690152a08ce82b2fcbc4febd"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:32:58",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 60,
+                "temperatura": 37.8,
+                "presion": "105/75",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:32:58",
+                "_id": "690152aa8ce82b2fcbc4febe"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:33:08",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 84,
+                "temperatura": 37.2,
+                "presion": "115/71",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:33:08",
+                "_id": "690152b48ce82b2fcbc4febf"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:33:18",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 99,
+                "temperatura": 38.7,
+                "presion": "129/90",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:33:18",
+                "_id": "690152be8ce82b2fcbc4fec0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:33:29",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 67,
+                "temperatura": 36.4,
+                "presion": "120/89",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:33:28",
+                "_id": "690152c88ce82b2fcbc4fec2"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:33:39",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 38.2,
+                "presion": "119/70",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:33:39",
+                "_id": "690152d38ce82b2fcbc4fec3"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:33:50",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 73,
+                "temperatura": 37.8,
+                "presion": "113/77",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:33:49",
+                "_id": "690152dd8ce82b2fcbc4fec4"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:00",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 70,
+                "temperatura": 38.9,
+                "presion": "121/89",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:34:00",
+                "_id": "690152e88ce82b2fcbc4fec5"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:10",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 101,
+                "temperatura": 36.4,
+                "presion": "125/72",
+                "oxigeno": 100,
+                "timestamp": "2025-10-28 18:34:10",
+                "_id": "690152f28ce82b2fcbc4fec6"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:20",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 37.9,
+                "presion": "119/79",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:34:20",
+                "_id": "690152fc8ce82b2fcbc4fec7"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:30",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 38.9,
+                "presion": "101/87",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:34:30",
+                "_id": "690153068ce82b2fcbc4fec9"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:41",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 36.1,
+                "presion": "103/73",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:34:40",
+                "_id": "690153108ce82b2fcbc4feca"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:34:51",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 37.8,
+                "presion": "102/77",
+                "oxigeno": 100,
+                "timestamp": "2025-10-28 18:34:51",
+                "_id": "6901531b8ce82b2fcbc4fecb"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:01",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 37.2,
+                "presion": "118/70",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:35:01",
+                "_id": "690153258ce82b2fcbc4fecc"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:11",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 94,
+                "temperatura": 38.7,
+                "presion": "114/87",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:35:11",
+                "_id": "6901532f8ce82b2fcbc4fecd"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:21",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 98,
+                "temperatura": 37.9,
+                "presion": "127/90",
+                "oxigeno": 93,
+                "timestamp": "2025-10-28 18:35:21",
+                "_id": "690153398ce82b2fcbc4fece"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:31",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 38.2,
+                "presion": "106/85",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:35:31",
+                "_id": "690153438ce82b2fcbc4fed0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:42",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 36.7,
+                "presion": "117/78",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:35:42",
+                "_id": "6901534e8ce82b2fcbc4fed1"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:35:52",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 88,
+                "temperatura": 38.7,
+                "presion": "113/83",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:35:52",
+                "_id": "690153588ce82b2fcbc4fed2"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:02",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 37.8,
+                "presion": "120/70",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:36:02",
+                "_id": "690153628ce82b2fcbc4fed3"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:12",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 69,
+                "temperatura": 38.3,
+                "presion": "123/79",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:36:12",
+                "_id": "6901536c8ce82b2fcbc4fed4"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:22",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 36.1,
+                "presion": "108/73",
+                "oxigeno": 97,
+                "timestamp": "2025-10-28 18:36:22",
+                "_id": "690153768ce82b2fcbc4fed5"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:33",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 38.2,
+                "presion": "124/83",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:36:32",
+                "_id": "690153808ce82b2fcbc4fed7"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:43",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 64,
+                "temperatura": 36.9,
+                "presion": "111/71",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:36:43",
+                "_id": "6901538b8ce82b2fcbc4fed8"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:53",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 38.0,
+                "presion": "118/81",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:36:53",
+                "_id": "690153958ce82b2fcbc4fed9"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:36:56",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 36.6,
+                "presion": "117/80",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:36:55",
+                "_id": "69015397f442d77d4be163e2"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:03",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 108,
+                "temperatura": 38.1,
+                "presion": "112/72",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:37:03",
+                "_id": "6901539ff442d77d4be163e3"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:14",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 84,
+                "temperatura": 36.9,
+                "presion": "107/71",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:37:13",
+                "_id": "690153a9f442d77d4be163e4"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:24",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 97,
+                "temperatura": 36.1,
+                "presion": "127/80",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:37:24",
+                "_id": "690153b4f442d77d4be163e5"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:34",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 96,
+                "temperatura": 37.5,
+                "presion": "100/73",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:37:34",
+                "_id": "690153bef442d77d4be163e7"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:44",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 62,
+                "temperatura": 37.4,
+                "presion": "101/87",
+                "oxigeno": 96,
+                "timestamp": "2025-10-28 18:37:44",
+                "_id": "690153c8f442d77d4be163e8"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:37:54",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 38.2,
+                "presion": "125/81",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:37:54",
+                "_id": "690153d2f442d77d4be163e9"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:04",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 74,
+                "temperatura": 37.1,
+                "presion": "128/79",
+                "oxigeno": 95,
+                "timestamp": "2025-10-28 18:38:04",
+                "_id": "690153dcf442d77d4be163ea"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:14",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 119,
+                "temperatura": 37.5,
+                "presion": "119/88",
+                "oxigeno": 91,
+                "timestamp": "2025-10-28 18:38:14",
+                "_id": "690153e6f442d77d4be163ec"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:25",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 37.7,
+                "presion": "114/85",
+                "oxigeno": 94,
+                "timestamp": "2025-10-28 18:38:25",
+                "_id": "690153f1f442d77d4be163ee"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:35",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 37.1,
+                "presion": "101/88",
+                "oxigeno": 99,
+                "timestamp": "2025-10-28 18:38:35",
+                "_id": "690153fbf442d77d4be163ef"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:45",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 103,
+                "temperatura": 36.1,
+                "presion": "114/75",
+                "oxigeno": 90,
+                "timestamp": "2025-10-28 18:38:45",
+                "_id": "69015405f442d77d4be163f0"
+            }
+        },
+        "alertas": [
+            "✅ Todo en rangos normales"
+        ]
+    },
+    {
+        "timestamp": "2025-10-28 18:38:55",
+        "datos": {
+            "status": "ok",
+            "lectura": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 37.9,
+                "presion": "108/74",
+                "oxigeno": 92,
+                "timestamp": "2025-10-28 18:38:55",
+                "_id": "6901540ff442d77d4be163f1"
             }
         },
         "alertas": [

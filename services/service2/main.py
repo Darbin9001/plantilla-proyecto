@@ -63,6 +63,11 @@ async def auto_fetch_data():
                         "alertas": alertas
                     }
                     data_history.append(entry)
+
+                    # ✅ Mantener solo los últimos 100 en memoria para evitar crecer infinito
+                    if len(data_history) > 100:
+                        data_history.pop(0)
+
                     save_data()  # Guarda en archivo
                     print(f"[{entry['timestamp']}] ✅ Datos actualizados:", data)
                 else:
@@ -85,12 +90,15 @@ async def startup_event():
 def root():
     return {"message": "Servicio 2 activo y recolectando datos automáticamente"}
 
+
 @app.get("/analyze")
 def get_latest():
     if not data_history:
         return {"mensaje": "Aún no hay datos almacenados"}
     return data_history[-1]
 
+
 @app.get("/historial")
 def get_history():
-    return data_history
+    # ✅ Devuelve solo los últimos 20 registros
+    return data_history[-20:] if len(data_history) > 20 else data_history

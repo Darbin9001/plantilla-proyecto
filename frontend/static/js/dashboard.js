@@ -1,10 +1,7 @@
 const bpmCtx = document.getElementById('bpmChart').getContext('2d');
 const tempCtx = document.getElementById('tempChart').getContext('2d');
-
 const alertPanel = document.getElementById('alert-panel');
 const alertMessage = document.getElementById('alert-message');
-
-// Sonido de alerta
 const alertSound = new Audio('https://actions.google.com/sounds/v1/alarms/beep_short.ogg');
 
 let bpmChart = new Chart(bpmCtx, {
@@ -21,13 +18,13 @@ let tempChart = new Chart(tempCtx, {
 
 async function updateCharts() {
   try {
-    const res = await fetch('http://127.0.0.1:8001/health-data');
+    const res = await fetch('/api/data'); // ✅ Flask -> Service2
     const data = await res.json();
 
     if (Array.isArray(data) && data.length > 0) {
       const timestamps = data.map(d => d.timestamp);
-      const bpm = data.map(d => d.datos.ritmo_cardiaco);
-      const temp = data.map(d => d.datos.temperatura);
+      const bpm = data.map(d => d.datos.lectura.ritmo_cardiaco);
+      const temp = data.map(d => d.datos.lectura.temperatura);
 
       bpmChart.data.labels = timestamps;
       bpmChart.data.datasets[0].data = bpm;
@@ -37,7 +34,6 @@ async function updateCharts() {
       bpmChart.update();
       tempChart.update();
 
-      // 🔍 Detección de alertas
       const lastBpm = bpm[bpm.length - 1];
       const lastTemp = temp[temp.length - 1];
       checkAlerts(lastBpm, lastTemp);
@@ -49,7 +45,6 @@ async function updateCharts() {
 
 function checkAlerts(bpm, temp) {
   let messages = [];
-
   if (bpm > 100) messages.push(`Ritmo cardíaco alto (${bpm} BPM)`);
   if (bpm < 50) messages.push(`Ritmo cardíaco bajo (${bpm} BPM)`);
   if (temp > 37.8) messages.push(`Temperatura elevada (${temp}°C)`);
@@ -64,5 +59,5 @@ function checkAlerts(bpm, temp) {
   }
 }
 
-setInterval(updateCharts, 5000); // cada 5s
+setInterval(updateCharts, 5000);
 updateCharts();
