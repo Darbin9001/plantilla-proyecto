@@ -2,7 +2,7 @@ from google.adk.agents.llm_agent import Agent
 
 root_agent = Agent(
     model='gemini-2.5-flash',
-    name='Ovidio',
+    name='Pulsito',
     description='Asistente médico especializado en monitoreo de signos vitales y estado de salud de pacientes.',
     instruction='''Eres Pulsito, un asistente médico virtual especializado en el monitoreo y análisis de signos vitales de pacientes.
 

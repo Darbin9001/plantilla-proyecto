@@ -1,4 +1,5 @@
 import os
+from my_agent.health_data import get_latest_health_data
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 from my_agent.agent import root_agent
@@ -6,8 +7,8 @@ from google.adk.sessions import InMemorySessionService
 from google.adk.runners import Runner
 from google.genai import types
 from dotenv import load_dotenv
-load_dotenv()
 
+load_dotenv()
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 
@@ -29,6 +30,26 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(f"📩 Mensaje de {user_id}: {user_message}")
 
     try:
+        # Obtener los datos más recientes desde la API local
+        health_data = get_latest_health_data()
+
+        contexto = ""
+        if health_data and "lectura" in health_data:
+            lectura = health_data["lectura"]
+            contexto = (
+                f"📊 Últimos signos vitales registrados:\n"
+                f"- Ritmo cardíaco: {lectura.get('ritmo_cardiaco', 'N/A')} bpm\n"
+                f"- Temperatura: {lectura.get('temperatura', 'N/A')} °C\n"
+                f"- Presión arterial: {lectura.get('presion', 'N/A')}\n"
+                f"- Saturación de oxígeno: {lectura.get('oxigeno', 'N/A')} %\n"
+                f"- Fecha: {lectura.get('timestamp', 'N/A')}\n\n"
+            )
+        else:
+            contexto = "⚠️ No se pudieron obtener los signos vitales recientes.\n\n"
+
+        # Crear el contenido del mensaje del usuario con contexto clínico
+        message_text = contexto + f"Consulta del usuario: {user_message}"
+
         # Obtener o crear sesión para este usuario
         if user_id not in user_sessions:
             session = await session_service.create_session(
@@ -39,11 +60,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             user_sessions[user_id] = session.id
         
         session_id = user_sessions[user_id]
-        
-        # Crear el contenido del mensaje del usuario
+
+        # Crear el contenido del mensaje
         message = types.Content(
             role='user',
-            parts=[types.Part(text=user_message)]
+            parts=[types.Part(text=message_text)]
         )
         
         # Ejecutar el agente con el runner
@@ -55,7 +76,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ):
             print(f"🔍 Event: {type(event).__name__}")
             
-            # Capturar la respuesta final
             if event.is_final_response():
                 if event.content and event.content.parts:
                     for part in event.content.parts:
@@ -64,8 +84,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         if not response_text:
             response_text = "No pude generar una respuesta."
-        
-        print(f"🤖 Respuesta: {response_text[:100]}...")
+
+        print(f"🤖 Respuesta: {response_text[:150]}...")
         await update.message.reply_text(response_text)
         
     except Exception as e:
