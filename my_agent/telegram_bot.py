@@ -1,4 +1,8 @@
 import os
+import sys
+from pathlib import Path
+# Añadir el directorio raíz del proyecto al path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
 from my_agent.health_data import get_latest_health_data
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
