@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Sistema de Monitoreo de Salud</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .register-container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      padding: 40px;
+      max-width: 500px;
+      width: 100%;
+      animation: fadeIn 0.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo h1 {
+      color: #667eea;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .logo p {
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: all 0.3s;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .alert {
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .alert-error {
+      background: #ffebee;
+      color: #c62828;
+      border: 1px solid #ef5350;
+    }
+
+    .alert-success {
+      background: #e8f5e9;
+      color: #2e7d32;
+      border: 1px solid #66bb6a;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+    }
+
+    .login-link a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="register-container">
+    <div class="logo">
+      <h1>🩺 HealthMonitor</h1>
+      <p>Registro de Nuevo Paciente</p>
+    </div>
+
+    <div id="alert" class="alert hidden"></div>
+
+    <form id="register-form">
+      <div class="form-group">
+        <label for="cedula">Cédula *</label>
+        <input 
+          type="text" 
+          id="cedula" 
+          name="cedula" 
+          placeholder="Número de cédula"
+          required
+          pattern="[0-9]+"
+          title="Solo números"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="nombre">Nombre Completo *</label>
+        <input 
+          type="text" 
+          id="nombre" 
+          name="nombre" 
+          placeholder="Nombre completo"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Correo Electrónico *</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="correo@ejemplo.com"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Teléfono *</label>
+        <input 
+          type="tel" 
+          id="telefono" 
+          name="telefono" 
+          placeholder="3001234567"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Contraseña *</label>
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          placeholder="Mínimo 6 caracteres"
+          required
+          minlength="6"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">Confirmar Contraseña *</label>
+        <input 
+          type="password" 
+          id="confirm-password" 
+          name="confirm-password" 
+          placeholder="Repita la contraseña"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn">Registrarse</button>
+    </form>
+
+    <div class="login-link">
+      ¿Ya tienes cuenta? <a href="/login">Inicia sesión aquí</a>
+    </div>
+  </div>
+
+  <script>
+    const registerForm = document.getElementById('register-form');
+    const alertDiv = document.getElementById('alert');
+
+    function showAlert(message, type = 'error') {
+      alertDiv.textContent = message;
+      alertDiv.className = `alert alert-${type}`;
+      alertDiv.classList.remove('hidden');
+      
+      setTimeout(() => {
+        alertDiv.classList.add('hidden');
+      }, 5000);
+    }
+
+    registerForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const cedula = document.getElementById('cedula').value.trim();
+      const nombre = document.getElementById('nombre').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const telefono = document.getElementById('telefono').value.trim();
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirm-password').value;
+
+      // Validaciones
+      if (!cedula || !nombre || !email || !telefono || !password) {
+        showAlert('Por favor complete todos los campos obligatorios', 'error');
+        return;
+      }
+
+      if (!/^\d+$/.test(cedula)) {
+        showAlert('La cédula debe contener solo números', 'error');
+        return;
+      }
+
+      if (password.length < 6) {
+        showAlert('La contraseña debe tener al menos 6 caracteres', 'error');
+        return;
+      }
+
+      if (password !== confirmPassword) {
+        showAlert('Las contraseñas no coinciden', 'error');
+        return;
+      }
+
+      try {
+        const response = await fetch('/registro', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ cedula, nombre, email, telefono, password })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+          showAlert('¡Registro exitoso! Redirigiendo al login...', 'success');
+          
+          setTimeout(() => {
+            window.location.href = '/login';
+          }, 2000);
+        } else {
+          showAlert(data.message || 'Error al registrarse', 'error');
+        }
+      } catch (error) {
+        showAlert('Error al conectar con el servidor', 'error');
+        console.error('Error:', error);
+      }
+    });
+  </script>
+</body>
+</html>

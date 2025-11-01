@@ -6,7 +6,7 @@ SERVICE2_URL = "http://127.0.0.1:8002/historial"
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("login.html")
 
 @app.route("/api/data/<cedula>")
 def get_data(cedula):

@@ -141,7 +141,7 @@ async function updateCharts() {
       // Verificar alertas
       checkAlerts(lastBpm, lastTemp);
       
-      showStatus(`Datos actualizados - ${data.length} registros`);
+      showStatus(`Datos actualizados - ${data.total_registros} registros totales (mostrando ${data.registros_mostrados})`);
     } else {
       showStatus('No hay datos disponibles para esta cédula', true);
       clearCharts();
