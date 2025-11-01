@@ -3,7 +3,7 @@ import time
 import random
 
 # Lista de cédulas simuladas
-cedulas = ["123456789", "987654321", "456789123", "654321987"]
+cedulas = ["123456789", "987654321", "456789123", "1060872570"]
 
 # URL de los servicios
 SERVICE1_URL = "http://127.0.0.1:8001/health-data"

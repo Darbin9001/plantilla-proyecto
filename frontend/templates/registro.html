@@ -26,9 +26,11 @@
       border-radius: 20px;
       box-shadow: 0 10px 40px rgba(0,0,0,0.2);
       padding: 40px;
-      max-width: 500px;
+      max-width: 550px;
       width: 100%;
       animation: fadeIn 0.5s ease-in;
+      max-height: 90vh;
+      overflow-y: auto;
     }
 
     @keyframes fadeIn {
@@ -52,8 +54,19 @@
       font-size: 0.9em;
     }
 
-    .form-group {
+    .form-row {
+      display: flex;
+      gap: 15px;
       margin-bottom: 20px;
+    }
+
+    .form-group {
+      flex: 1;
+      margin-bottom: 20px;
+    }
+
+    .form-row .form-group {
+      margin-bottom: 0;
     }
 
     .form-group label {
@@ -76,6 +89,13 @@
       outline: none;
       border-color: #667eea;
       box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .form-group small {
+      display: block;
+      margin-top: 5px;
+      color: #999;
+      font-size: 0.85em;
     }
 
     .btn {
@@ -139,6 +159,10 @@
     .login-link a:hover {
       text-decoration: underline;
     }
+
+    .required {
+      color: #f44336;
+    }
   </style>
 </head>
 <body>
@@ -152,7 +176,7 @@
 
     <form id="register-form">
       <div class="form-group">
-        <label for="cedula">Cédula *</label>
+        <label for="cedula">Cédula <span class="required">*</span></label>
         <input 
           type="text" 
           id="cedula" 
@@ -164,19 +188,42 @@
         />
       </div>
 
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nombre">Nombre <span class="required">*</span></label>
+          <input 
+            type="text" 
+            id="nombre" 
+            name="nombre" 
+            placeholder="Nombre"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido <span class="required">*</span></label>
+          <input 
+            type="text" 
+            id="apellido" 
+            name="apellido" 
+            placeholder="Apellido"
+            required
+          />
+        </div>
+      </div>
+
       <div class="form-group">
-        <label for="nombre">Nombre Completo *</label>
+        <label for="fecha_nacimiento">Fecha de Nacimiento <span class="required">*</span></label>
         <input 
-          type="text" 
-          id="nombre" 
-          name="nombre" 
-          placeholder="Nombre completo"
+          type="date" 
+          id="fecha_nacimiento" 
+          name="fecha_nacimiento" 
           required
         />
       </div>
 
       <div class="form-group">
-        <label for="email">Correo Electrónico *</label>
+        <label for="email">Correo Electrónico <span class="required">*</span></label>
         <input 
           type="email" 
           id="email" 
@@ -187,18 +234,31 @@
       </div>
 
       <div class="form-group">
-        <label for="telefono">Teléfono *</label>
+        <label for="telefono">Teléfono <span class="required">*</span></label>
         <input 
           type="tel" 
           id="telefono" 
           name="telefono" 
           placeholder="3001234567"
           required
+          pattern="[0-9]{10}"
+          title="Debe ser un número de 10 dígitos"
         />
       </div>
 
       <div class="form-group">
-        <label for="password">Contraseña *</label>
+        <label for="telegram_user_id">Telegram User ID</label>
+        <input 
+          type="text" 
+          id="telegram_user_id" 
+          name="telegram_user_id" 
+          placeholder="Opcional"
+        />
+        <small>Si tienes cuenta de Telegram, puedes ingresar tu ID</small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Contraseña <span class="required">*</span></label>
         <input 
           type="password" 
           id="password" 
@@ -210,7 +270,7 @@
       </div>
 
       <div class="form-group">
-        <label for="confirm-password">Confirmar Contraseña *</label>
+        <label for="confirm-password">Confirmar Contraseña <span class="required">*</span></label>
         <input 
           type="password" 
           id="confirm-password" 
@@ -247,19 +307,27 @@
       
       const cedula = document.getElementById('cedula').value.trim();
       const nombre = document.getElementById('nombre').value.trim();
+      const apellido = document.getElementById('apellido').value.trim();
+      const fecha_nacimiento = document.getElementById('fecha_nacimiento').value;
       const email = document.getElementById('email').value.trim();
       const telefono = document.getElementById('telefono').value.trim();
+      const telegram_user_id = document.getElementById('telegram_user_id').value.trim();
       const password = document.getElementById('password').value;
       const confirmPassword = document.getElementById('confirm-password').value;
 
       // Validaciones
-      if (!cedula || !nombre || !email || !telefono || !password) {
+      if (!cedula || !nombre || !apellido || !fecha_nacimiento || !email || !telefono || !password) {
         showAlert('Por favor complete todos los campos obligatorios', 'error');
         return;
       }
 
       if (!/^\d+$/.test(cedula)) {
         showAlert('La cédula debe contener solo números', 'error');
+        return;
+      }
+
+      if (!/^\d{10}$/.test(telefono)) {
+        showAlert('El teléfono debe tener 10 dígitos', 'error');
         return;
       }
 
@@ -279,7 +347,16 @@
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ cedula, nombre, email, telefono, password })
+          body: JSON.stringify({ 
+            cedula, 
+            nombre, 
+            apellido,
+            fecha_nacimiento,
+            email, 
+            telefono, 
+            telegram_user_id,
+            password 
+          })
         });
 
         const data = await response.json();

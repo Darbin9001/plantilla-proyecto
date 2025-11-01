@@ -1,39 +1,22 @@
 from flask import Flask, render_template, jsonify, request, session, redirect, url_for
 from functools import wraps
 import requests
+import os
+import sys
+from dotenv import load_dotenv
+
+# Agregar el directorio services al path para importar
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+# Importar funciones de tu módulo de base de datos existente
+from services import data_base_mongo as db_mongo
+
+load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'tu_clave_secreta_super_segura_aqui'  # Cambiar en producción
+app.secret_key = os.getenv('SECRET_KEY', 'clave_secreta_cambiar_en_produccion')
 
-SERVICE2_URL = "http://127.0.0.1:8002/historial"
-# Si usas Docker Compose: SERVICE2_URL = "http://service2:8002/historial"
-
-# Simulación de base de datos en memoria (reemplazar con DB real)
-usuarios_db = {
-    '123456789': {
-        'cedula': '123456789',
-        'nombre': 'Juan Pérez',
-        'email': 'juan@example.com',
-        'telefono': '3001234567',
-        'password': 'paciente123',
-        'rol': 'paciente'
-    },
-    'doc001': {
-        'cedula': 'doc001',
-        'nombre': 'Dr. María González',
-        'email': 'maria@hospital.com',
-        'telefono': '3009876543',
-        'password': 'medico123',
-        'rol': 'medico',
-        'especialidad': 'Cardiología'
-    }
-}
-
-pacientes_db = [
-    {'cedula': '123456789', 'nombre': 'Juan Pérez'},
-    {'cedula': '987654321', 'nombre': 'Ana Martínez'},
-    {'cedula': '555666777', 'nombre': 'Carlos López'}
-]
+SERVICE2_URL = os.getenv('SERVICE2_URL', 'http://127.0.0.1:8002/historial')
 
 # Decorador para requerir login
 def login_required(f):
@@ -77,7 +60,7 @@ def login_page():
 
 @app.route("/login", methods=['POST'])
 def login():
-    """Procesa el login"""
+    """Procesa el login usando tu conexión MongoDB existente"""
     data = request.get_json()
     cedula = data.get('cedula')
     password = data.get('password')
@@ -85,23 +68,29 @@ def login():
     if not cedula or not password:
         return jsonify({"success": False, "message": "Faltan datos"}), 400
     
-    # Verificar credenciales
-    usuario = usuarios_db.get(cedula)
-    if usuario and usuario['password'] == password:
-        # Crear sesión
-        session['user'] = {
-            'cedula': usuario['cedula'],
-            'nombre': usuario['nombre'],
-            'rol': usuario['rol'],
-            'especialidad': usuario.get('especialidad', '')
-        }
-        return jsonify({
-            "success": True,
-            "rol": usuario['rol'],
-            "message": "Login exitoso"
-        })
-    
-    return jsonify({"success": False, "message": "Credenciales inválidas"}), 401
+    try:
+        # Autenticar usando la función de tu módulo
+        usuario = db_mongo.autenticar_usuario(cedula, password)
+        
+        if usuario:
+            # Crear sesión
+            session['user'] = {
+                'cedula': usuario['cedula'],
+                'nombre': usuario['nombre'],
+                'rol': usuario['rol'],
+                'especialidad': usuario.get('especialidad', '')
+            }
+            return jsonify({
+                "success": True,
+                "rol": usuario['rol'],
+                "message": "Login exitoso"
+            })
+        
+        return jsonify({"success": False, "message": "Credenciales inválidas"}), 401
+        
+    except Exception as e:
+        print(f"Error en login: {e}")
+        return jsonify({"success": False, "message": "Error del servidor"}), 500
 
 @app.route("/registro")
 def registro_page():
@@ -114,31 +103,40 @@ def registro():
     data = request.get_json()
     cedula = data.get('cedula')
     nombre = data.get('nombre')
+    apellido = data.get('apellido', '')
+    fecha_nacimiento = data.get('fecha_nacimiento', '')
     email = data.get('email')
     telefono = data.get('telefono')
+    telegram_user_id = data.get('telegram_user_id', '')
     password = data.get('password')
     
     if not all([cedula, nombre, email, telefono, password]):
-        return jsonify({"success": False, "message": "Faltan datos"}), 400
+        return jsonify({"success": False, "message": "Faltan datos obligatorios"}), 400
     
-    # Verificar si ya existe
-    if cedula in usuarios_db:
-        return jsonify({"success": False, "message": "La cédula ya está registrada"}), 400
-    
-    # Registrar nuevo usuario
-    usuarios_db[cedula] = {
-        'cedula': cedula,
-        'nombre': nombre,
-        'email': email,
-        'telefono': telefono,
-        'password': password,
-        'rol': 'paciente'
-    }
-    
-    # Agregar a lista de pacientes
-    pacientes_db.append({'cedula': cedula, 'nombre': nombre})
-    
-    return jsonify({"success": True, "message": "Registro exitoso"})
+    try:
+        # Verificar si ya existe usando tu función
+        if db_mongo.usuario_existe(cedula):
+            return jsonify({"success": False, "message": "La cédula ya está registrada"}), 400
+        
+        # Crear usuario usando tu función con todos los campos
+        if db_mongo.crear_usuario(
+            cedula=cedula, 
+            nombre=nombre, 
+            email=email, 
+            telefono=telefono, 
+            password=password, 
+            rol='paciente',
+            apellido=apellido,
+            fecha_nacimiento=fecha_nacimiento,
+            telegram_user_id=telegram_user_id
+        ):
+            return jsonify({"success": True, "message": "Registro exitoso"})
+        else:
+            return jsonify({"success": False, "message": "Error al registrar usuario"}), 500
+            
+    except Exception as e:
+        print(f"Error en registro: {e}")
+        return jsonify({"success": False, "message": "Error del servidor"}), 500
 
 @app.route("/logout")
 def logout():
@@ -183,7 +181,12 @@ def get_data(cedula):
 @role_required('medico')
 def get_pacientes():
     """Lista todos los pacientes (solo para médicos)"""
-    return jsonify(pacientes_db)
+    try:
+        pacientes = db_mongo.obtener_pacientes()
+        return jsonify(pacientes)
+    except Exception as e:
+        print(f"Error al obtener pacientes: {e}")
+        return jsonify([])
 
 # ============= PÁGINAS DE ERROR =============
 
@@ -195,5 +198,16 @@ def not_found(e):
 def internal_error(e):
     return jsonify({"error": "Error interno del servidor"}), 500
 
+# ============= INICIALIZACIÓN =============
+
+@app.before_request
+def inicializar_db():
+    """Inicializa datos de prueba en el primer request"""
+    if not hasattr(app, 'db_initialized'):
+        db_mongo.inicializar_datos_prueba()
+        app.db_initialized = True
+
 if __name__ == "__main__":
+    print("🚀 Iniciando servidor Flask...")
+    print(f"📊 Usando conexión MongoDB desde services/data_base_mongo.py")
     app.run(debug=True, host='0.0.0.0', port=8080)
