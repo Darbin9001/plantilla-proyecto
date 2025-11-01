@@ -11,19 +11,49 @@
   <div class="container">
     <h1>🩺 Sistema de Monitoreo de Salud</h1>
 
+    <!-- 🔍 Formulario de búsqueda por cédula -->
+    <div class="search-panel">
+      <label for="cedula-input">Ingrese Cédula del Paciente:</label>
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="cedula-input" 
+          placeholder="Ej: 123456789" 
+          pattern="[0-9]*"
+          inputmode="numeric"
+        />
+        <button id="search-btn">Buscar 🔍</button>
+      </div>
+      <div id="patient-info" class="hidden">
+        <strong>Paciente:</strong> <span id="patient-cedula"></span>
+      </div>
+    </div>
+
     <!-- 🔔 Panel de alertas -->
     <div id="alert-panel" class="alert hidden">
       <strong>⚠️ Alerta:</strong> <span id="alert-message"></span>
     </div>
 
+    <!-- 📊 Mensaje de estado -->
+    <div id="status-message" class="status-message hidden">
+      <span id="status-text"></span>
+    </div>
+
+    <!-- 📈 Gráficas -->
     <div class="cards">
       <div class="card">
         <h3>Ritmo Cardíaco ❤️</h3>
         <canvas id="bpmChart"></canvas>
+        <div class="chart-info">
+          <span>Último: <strong id="last-bpm">--</strong> BPM</span>
+        </div>
       </div>
       <div class="card">
         <h3>Temperatura 🌡️</h3>
         <canvas id="tempChart"></canvas>
+        <div class="chart-info">
+          <span>Última: <strong id="last-temp">--</strong> °C</span>
+        </div>
       </div>
     </div>
   </div>
