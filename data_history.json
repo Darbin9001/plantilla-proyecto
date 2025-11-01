@@ -5,12 +5,12 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:40:50",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.2,
+                "presion": "129/89",
+                "oxigeno": 96
             },
             "alertas": [
                 "🌡️ Fiebre detectada"
@@ -21,12 +21,12 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:40:50",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.2,
+                "presion": "129/89",
+                "oxigeno": 96
             },
             "alertas": [
                 "🌡️ Fiebre detectada"
@@ -37,15 +37,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:41:01",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
+                "ritmo_cardiaco": 84,
+                "temperatura": 36.4,
+                "presion": "108/81",
+                "oxigeno": 94
             },
             "alertas": [
-                "🌡️ Fiebre detectada"
+                "🫁 Saturación de oxígeno baja"
             ]
         },
         {
@@ -53,15 +53,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:41:01",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
+                "ritmo_cardiaco": 84,
+                "temperatura": 36.4,
+                "presion": "108/81",
+                "oxigeno": 94
             },
             "alertas": [
-                "🌡️ Fiebre detectada"
+                "🫁 Saturación de oxígeno baja"
             ]
         },
         {
@@ -69,15 +69,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:41:12",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
+                "ritmo_cardiaco": 115,
+                "temperatura": 37.3,
+                "presion": "119/79",
                 "oxigeno": 95
             },
             "alertas": [
-                "🌡️ Fiebre detectada"
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
             ]
         },
         {
@@ -85,171 +85,11 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 22:39:20",
+            "timestamp": "2025-11-01 12:41:24",
             "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 22:39:20",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 38.7,
-                "presion": "102/73",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:11:57",
-            "datos": {
-                "ritmo_cardiaco": 81,
-                "temperatura": 36.8,
-                "presion": "122/81",
+                "ritmo_cardiaco": 63,
+                "temperatura": 36.4,
+                "presion": "110/84",
                 "oxigeno": 93
             },
             "alertas": [
@@ -261,16 +101,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:12:08",
+            "timestamp": "2025-11-01 12:41:34",
             "datos": {
-                "ritmo_cardiaco": 105,
-                "temperatura": 36.6,
-                "presion": "103/82",
-                "oxigeno": 91
+                "ritmo_cardiaco": 79,
+                "temperatura": 37.0,
+                "presion": "103/78",
+                "oxigeno": 97
             },
             "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
+                "✅ Todo en rangos normales"
             ]
         },
         {
@@ -278,12 +117,12 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:12:19",
+            "timestamp": "2025-11-01 12:41:45",
             "datos": {
-                "ritmo_cardiaco": 68,
-                "temperatura": 38.9,
-                "presion": "101/75",
-                "oxigeno": 99
+                "ritmo_cardiaco": 91,
+                "temperatura": 38.7,
+                "presion": "124/74",
+                "oxigeno": 98
             },
             "alertas": [
                 "🌡️ Fiebre detectada"
@@ -294,11 +133,43 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:12:31",
+            "timestamp": "2025-11-01 12:41:56",
             "datos": {
-                "ritmo_cardiaco": 70,
-                "temperatura": 36.0,
-                "presion": "109/88",
+                "ritmo_cardiaco": 92,
+                "temperatura": 37.7,
+                "presion": "115/88",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:42:08",
+            "datos": {
+                "ritmo_cardiaco": 100,
+                "temperatura": 37.9,
+                "presion": "101/82",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:42:18",
+            "datos": {
+                "ritmo_cardiaco": 63,
+                "temperatura": 36.3,
+                "presion": "120/87",
                 "oxigeno": 90
             },
             "alertas": [
@@ -310,45 +181,11 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:12:41",
+            "timestamp": "2025-11-01 12:42:30",
             "datos": {
                 "ritmo_cardiaco": 76,
-                "temperatura": 38.9,
-                "presion": "120/81",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:12:53",
-            "datos": {
-                "ritmo_cardiaco": 112,
-                "temperatura": 37.6,
-                "presion": "111/86",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:13:05",
-            "datos": {
-                "ritmo_cardiaco": 88,
-                "temperatura": 37.9,
-                "presion": "103/77",
+                "temperatura": 36.6,
+                "presion": "126/73",
                 "oxigeno": 98
             },
             "alertas": [
@@ -360,43 +197,108 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:13:15",
-            "datos": {
-                "ritmo_cardiaco": 86,
-                "temperatura": 37.1,
-                "presion": "104/71",
-                "oxigeno": 97
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:13:27",
-            "datos": {
-                "ritmo_cardiaco": 73,
-                "temperatura": 36.3,
-                "presion": "103/71",
-                "oxigeno": 97
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:13:37",
+            "timestamp": "2025-11-01 12:42:41",
             "datos": {
                 "ritmo_cardiaco": 78,
-                "temperatura": 37.3,
-                "presion": "124/81",
+                "temperatura": 37.1,
+                "presion": "107/89",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:42:53",
+            "datos": {
+                "ritmo_cardiaco": 64,
+                "temperatura": 37.8,
+                "presion": "128/83",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:43:02",
+            "datos": {
+                "ritmo_cardiaco": 60,
+                "temperatura": 36.4,
+                "presion": "116/90",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:43:14",
+            "datos": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.3,
+                "presion": "112/76",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:43:24",
+            "datos": {
+                "ritmo_cardiaco": 99,
+                "temperatura": 38.6,
+                "presion": "103/85",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:43:36",
+            "datos": {
+                "ritmo_cardiaco": 108,
+                "temperatura": 36.9,
+                "presion": "107/84",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:43:47",
+            "datos": {
+                "ritmo_cardiaco": 97,
+                "temperatura": 36.5,
+                "presion": "117/75",
                 "oxigeno": 100
             },
             "alertas": [
@@ -408,12 +310,272 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:13:50",
+            "timestamp": "2025-11-01 12:43:58",
             "datos": {
-                "ritmo_cardiaco": 92,
+                "ritmo_cardiaco": 83,
+                "temperatura": 36.9,
+                "presion": "103/73",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:09",
+            "datos": {
+                "ritmo_cardiaco": 91,
+                "temperatura": 37.4,
+                "presion": "111/86",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:19",
+            "datos": {
+                "ritmo_cardiaco": 115,
+                "temperatura": 38.3,
+                "presion": "121/82",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:31",
+            "datos": {
+                "ritmo_cardiaco": 75,
+                "temperatura": 36.3,
+                "presion": "119/89",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.3,
+                "presion": "118/88",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:45:37",
+            "datos": {
+                "ritmo_cardiaco": 86,
+                "temperatura": 38.2,
+                "presion": "123/88",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:45:47",
+            "datos": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 36.4,
+                "presion": "117/79",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:45:59",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.1,
+                "presion": "108/82",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:46:10",
+            "datos": {
+                "ritmo_cardiaco": 110,
                 "temperatura": 38.1,
-                "presion": "111/82",
-                "oxigeno": 90
+                "presion": "114/77",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:46:21",
+            "datos": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 38.3,
+                "presion": "107/87",
+                "oxigeno": 92
             },
             "alertas": [
                 "🌡️ Fiebre detectada",
@@ -425,11 +587,27 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:17:40",
+            "timestamp": "2025-11-01 13:46:33",
             "datos": {
-                "ritmo_cardiaco": 115,
-                "temperatura": 36.9,
-                "presion": "124/80",
+                "ritmo_cardiaco": 92,
+                "temperatura": 37.0,
+                "presion": "120/79",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:46:43",
+            "datos": {
+                "ritmo_cardiaco": 101,
+                "temperatura": 36.7,
+                "presion": "124/85",
                 "oxigeno": 93
             },
             "alertas": [
@@ -442,11 +620,27 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:17:50",
+            "timestamp": "2025-11-01 13:46:55",
             "datos": {
-                "ritmo_cardiaco": 91,
-                "temperatura": 38.0,
-                "presion": "130/82",
+                "ritmo_cardiaco": 79,
+                "temperatura": 38.4,
+                "presion": "119/83",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:47:06",
+            "datos": {
+                "ritmo_cardiaco": 66,
+                "temperatura": 36.2,
+                "presion": "113/70",
                 "oxigeno": 90
             },
             "alertas": [
@@ -458,61 +652,12 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:18:02",
+            "timestamp": "2025-11-01 13:47:20",
             "datos": {
-                "ritmo_cardiaco": 86,
-                "temperatura": 37.8,
-                "presion": "119/75",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:13",
-            "datos": {
-                "ritmo_cardiaco": 108,
-                "temperatura": 36.7,
-                "presion": "125/83",
-                "oxigeno": 91
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:23",
-            "datos": {
-                "ritmo_cardiaco": 83,
-                "temperatura": 37.7,
-                "presion": "110/90",
-                "oxigeno": 93
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:35",
-            "datos": {
-                "ritmo_cardiaco": 87,
-                "temperatura": 36.1,
-                "presion": "110/89",
-                "oxigeno": 99
+                "ritmo_cardiaco": 90,
+                "temperatura": 36.2,
+                "presion": "100/75",
+                "oxigeno": 100
             },
             "alertas": [
                 "✅ Todo en rangos normales"
@@ -523,80 +668,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:18:35",
+            "timestamp": "2025-11-01 13:47:32",
             "datos": {
-                "ritmo_cardiaco": 87,
-                "temperatura": 36.1,
-                "presion": "110/89",
-                "oxigeno": 99
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:45",
-            "datos": {
-                "ritmo_cardiaco": 115,
-                "temperatura": 37.6,
-                "presion": "125/88",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:45",
-            "datos": {
-                "ritmo_cardiaco": 115,
-                "temperatura": 37.6,
-                "presion": "125/88",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:18:56",
-            "datos": {
-                "ritmo_cardiaco": 118,
-                "temperatura": 36.8,
-                "presion": "115/83",
-                "oxigeno": 91
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:19:08",
-            "datos": {
-                "ritmo_cardiaco": 63,
+                "ritmo_cardiaco": 70,
                 "temperatura": 37.9,
-                "presion": "113/90",
-                "oxigeno": 91
+                "presion": "124/79",
+                "oxigeno": 100
             },
             "alertas": [
-                "🫁 Saturación de oxígeno baja"
+                "✅ Todo en rangos normales"
             ]
         },
         {
@@ -604,15 +684,15 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:19:18",
+            "timestamp": "2025-11-01 13:47:32",
             "datos": {
-                "ritmo_cardiaco": 66,
-                "temperatura": 37.0,
-                "presion": "110/70",
-                "oxigeno": 93
+                "ritmo_cardiaco": 70,
+                "temperatura": 37.9,
+                "presion": "124/79",
+                "oxigeno": 100
             },
             "alertas": [
-                "🫁 Saturación de oxígeno baja"
+                "✅ Todo en rangos normales"
             ]
         },
         {
@@ -620,27 +700,95 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:19:18",
-            "datos": {
-                "ritmo_cardiaco": 66,
-                "temperatura": 37.0,
-                "presion": "110/70",
-                "oxigeno": 93
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:19:30",
+            "timestamp": "2025-11-01 13:47:42",
             "datos": {
                 "ritmo_cardiaco": 108,
-                "temperatura": 36.4,
-                "presion": "121/79",
+                "temperatura": 37.6,
+                "presion": "128/89",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:47:42",
+            "datos": {
+                "ritmo_cardiaco": 108,
+                "temperatura": 37.6,
+                "presion": "128/89",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:47:54",
+            "datos": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 38.8,
+                "presion": "114/71",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:47:54",
+            "datos": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 38.8,
+                "presion": "114/71",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:48:04",
+            "datos": {
+                "ritmo_cardiaco": 101,
+                "temperatura": 37.8,
+                "presion": "117/76",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "123456789",
+                "nombre": "Juan Pérez"
+            },
+            "timestamp": "2025-11-01 13:48:16",
+            "datos": {
+                "ritmo_cardiaco": 113,
+                "temperatura": 36.0,
+                "presion": "110/90",
                 "oxigeno": 92
             },
             "alertas": [
@@ -653,27 +801,11 @@
                 "cedula": "123456789",
                 "nombre": "Juan Pérez"
             },
-            "timestamp": "2025-10-30 23:19:42",
+            "timestamp": "2025-11-01 13:48:28",
             "datos": {
-                "ritmo_cardiaco": 119,
-                "temperatura": 36.1,
-                "presion": "102/86",
-                "oxigeno": 98
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "123456789",
-                "nombre": "Juan Pérez"
-            },
-            "timestamp": "2025-10-30 23:19:52",
-            "datos": {
-                "ritmo_cardiaco": 76,
-                "temperatura": 37.8,
-                "presion": "121/76",
+                "ritmo_cardiaco": 70,
+                "temperatura": 36.0,
+                "presion": "118/81",
                 "oxigeno": 94
             },
             "alertas": [
@@ -687,59 +819,11 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 22:39:21",
+            "timestamp": "2025-11-01 12:38:37",
             "datos": {
-                "ritmo_cardiaco": 80,
-                "temperatura": 38.9,
-                "presion": "118/90",
-                "oxigeno": 96
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:11:58",
-            "datos": {
-                "ritmo_cardiaco": 87,
-                "temperatura": 37.1,
-                "presion": "105/76",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:12:08",
-            "datos": {
-                "ritmo_cardiaco": 60,
-                "temperatura": 38.3,
-                "presion": "124/90",
-                "oxigeno": 96
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:12:20",
-            "datos": {
-                "ritmo_cardiaco": 86,
-                "temperatura": 36.3,
-                "presion": "130/87",
+                "ritmo_cardiaco": 97,
+                "temperatura": 36.7,
+                "presion": "100/77",
                 "oxigeno": 96
             },
             "alertas": [
@@ -751,44 +835,12 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:12:31",
+            "timestamp": "2025-11-01 12:38:49",
             "datos": {
-                "ritmo_cardiaco": 113,
-                "temperatura": 37.6,
-                "presion": "114/88",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:12:42",
-            "datos": {
-                "ritmo_cardiaco": 84,
-                "temperatura": 38.7,
-                "presion": "112/76",
-                "oxigeno": 96
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:12:54",
-            "datos": {
-                "ritmo_cardiaco": 61,
+                "ritmo_cardiaco": 88,
                 "temperatura": 38.8,
-                "presion": "129/89",
-                "oxigeno": 92
+                "presion": "105/76",
+                "oxigeno": 91
             },
             "alertas": [
                 "🌡️ Fiebre detectada",
@@ -800,130 +852,15 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:13:05",
+            "timestamp": "2025-11-01 12:39:00",
             "datos": {
-                "ritmo_cardiaco": 75,
-                "temperatura": 37.5,
-                "presion": "101/90",
-                "oxigeno": 96
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:13:16",
-            "datos": {
-                "ritmo_cardiaco": 72,
-                "temperatura": 37.5,
-                "presion": "106/77",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:13:28",
-            "datos": {
-                "ritmo_cardiaco": 102,
-                "temperatura": 38.1,
-                "presion": "128/89",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:13:38",
-            "datos": {
-                "ritmo_cardiaco": 99,
-                "temperatura": 38.1,
-                "presion": "115/86",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:13:50",
-            "datos": {
-                "ritmo_cardiaco": 96,
-                "temperatura": 36.8,
-                "presion": "124/73",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:17:41",
-            "datos": {
-                "ritmo_cardiaco": 65,
+                "ritmo_cardiaco": 100,
                 "temperatura": 38.7,
-                "presion": "129/74",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:17:51",
-            "datos": {
-                "ritmo_cardiaco": 113,
-                "temperatura": 36.5,
-                "presion": "106/84",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:18:02",
-            "datos": {
-                "ritmo_cardiaco": 89,
-                "temperatura": 37.1,
-                "presion": "112/76",
+                "presion": "116/88",
                 "oxigeno": 94
             },
             "alertas": [
+                "🌡️ Fiebre detectada",
                 "🫁 Saturación de oxígeno baja"
             ]
         },
@@ -932,11 +869,11 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:18:14",
+            "timestamp": "2025-11-01 12:39:10",
             "datos": {
-                "ritmo_cardiaco": 68,
+                "ritmo_cardiaco": 70,
                 "temperatura": 37.4,
-                "presion": "127/87",
+                "presion": "122/81",
                 "oxigeno": 91
             },
             "alertas": [
@@ -948,12 +885,12 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:18:24",
+            "timestamp": "2025-11-01 12:39:22",
             "datos": {
-                "ritmo_cardiaco": 63,
-                "temperatura": 38.3,
-                "presion": "112/70",
-                "oxigeno": 93
+                "ritmo_cardiaco": 68,
+                "temperatura": 38.5,
+                "presion": "109/84",
+                "oxigeno": 92
             },
             "alertas": [
                 "🌡️ Fiebre detectada",
@@ -965,11 +902,225 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:18:35",
+            "timestamp": "2025-11-01 12:39:32",
             "datos": {
-                "ritmo_cardiaco": 108,
-                "temperatura": 36.2,
-                "presion": "129/85",
+                "ritmo_cardiaco": 119,
+                "temperatura": 37.4,
+                "presion": "120/81",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:39:44",
+            "datos": {
+                "ritmo_cardiaco": 114,
+                "temperatura": 38.8,
+                "presion": "115/70",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:39:55",
+            "datos": {
+                "ritmo_cardiaco": 95,
+                "temperatura": 36.0,
+                "presion": "101/85",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:40:06",
+            "datos": {
+                "ritmo_cardiaco": 106,
+                "temperatura": 37.4,
+                "presion": "101/79",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:40:17",
+            "datos": {
+                "ritmo_cardiaco": 111,
+                "temperatura": 36.6,
+                "presion": "112/74",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:40:29",
+            "datos": {
+                "ritmo_cardiaco": 101,
+                "temperatura": 37.8,
+                "presion": "113/85",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:40:39",
+            "datos": {
+                "ritmo_cardiaco": 85,
+                "temperatura": 36.3,
+                "presion": "108/71",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:40:51",
+            "datos": {
+                "ritmo_cardiaco": 85,
+                "temperatura": 37.9,
+                "presion": "113/72",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:01",
+            "datos": {
+                "ritmo_cardiaco": 94,
+                "temperatura": 36.8,
+                "presion": "128/78",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:12",
+            "datos": {
+                "ritmo_cardiaco": 120,
+                "temperatura": 36.1,
+                "presion": "114/85",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:24",
+            "datos": {
+                "ritmo_cardiaco": 69,
+                "temperatura": 37.6,
+                "presion": "117/71",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:34",
+            "datos": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 38.3,
+                "presion": "123/70",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:46",
+            "datos": {
+                "ritmo_cardiaco": 95,
+                "temperatura": 37.8,
+                "presion": "120/82",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:41:57",
+            "datos": {
+                "ritmo_cardiaco": 117,
+                "temperatura": 36.1,
+                "presion": "122/75",
                 "oxigeno": 96
             },
             "alertas": [
@@ -981,28 +1132,12 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:18:45",
+            "timestamp": "2025-11-01 12:42:08",
             "datos": {
-                "ritmo_cardiaco": 99,
-                "temperatura": 38.1,
-                "presion": "100/81",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "987654321",
-                "nombre": "María González"
-            },
-            "timestamp": "2025-10-30 23:18:57",
-            "datos": {
-                "ritmo_cardiaco": 105,
-                "temperatura": 36.8,
-                "presion": "109/71",
-                "oxigeno": 92
+                "ritmo_cardiaco": 113,
+                "temperatura": 37.7,
+                "presion": "115/80",
+                "oxigeno": 94
             },
             "alertas": [
                 "⚠️ Ritmo cardíaco alto (posible taquicardia)",
@@ -1014,12 +1149,12 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:19:08",
+            "timestamp": "2025-11-01 12:42:18",
             "datos": {
-                "ritmo_cardiaco": 114,
-                "temperatura": 37.8,
-                "presion": "125/89",
-                "oxigeno": 92
+                "ritmo_cardiaco": 120,
+                "temperatura": 36.1,
+                "presion": "125/79",
+                "oxigeno": 91
             },
             "alertas": [
                 "⚠️ Ritmo cardíaco alto (posible taquicardia)",
@@ -1031,11 +1166,27 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:19:18",
+            "timestamp": "2025-11-01 12:42:30",
             "datos": {
-                "ritmo_cardiaco": 107,
-                "temperatura": 39.0,
-                "presion": "107/70",
+                "ritmo_cardiaco": 89,
+                "temperatura": 37.4,
+                "presion": "107/77",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:42:42",
+            "datos": {
+                "ritmo_cardiaco": 110,
+                "temperatura": 38.6,
+                "presion": "121/81",
                 "oxigeno": 93
             },
             "alertas": [
@@ -1049,12 +1200,255 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:19:30",
+            "timestamp": "2025-11-01 12:42:53",
             "datos": {
-                "ritmo_cardiaco": 102,
-                "temperatura": 37.3,
-                "presion": "100/81",
+                "ritmo_cardiaco": 76,
+                "temperatura": 38.9,
+                "presion": "105/89",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:02",
+            "datos": {
+                "ritmo_cardiaco": 62,
+                "temperatura": 37.7,
+                "presion": "124/89",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:14",
+            "datos": {
+                "ritmo_cardiaco": 60,
+                "temperatura": 37.5,
+                "presion": "114/70",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:25",
+            "datos": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 36.6,
+                "presion": "108/70",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:36",
+            "datos": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 36.0,
+                "presion": "103/88",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:48",
+            "datos": {
+                "ritmo_cardiaco": 118,
+                "temperatura": 36.6,
+                "presion": "124/86",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:43:58",
+            "datos": {
+                "ritmo_cardiaco": 110,
+                "temperatura": 38.4,
+                "presion": "124/74",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:44:10",
+            "datos": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 36.5,
+                "presion": "103/86",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:44:20",
+            "datos": {
+                "ritmo_cardiaco": 107,
+                "temperatura": 38.0,
+                "presion": "113/82",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:44:31",
+            "datos": {
+                "ritmo_cardiaco": 88,
+                "temperatura": 37.4,
+                "presion": "107/77",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 86,
+                "temperatura": 37.1,
+                "presion": "108/72",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:45:37",
+            "datos": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 36.3,
+                "presion": "107/71",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:45:48",
+            "datos": {
+                "ritmo_cardiaco": 83,
+                "temperatura": 36.9,
+                "presion": "110/86",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:45:59",
+            "datos": {
+                "ritmo_cardiaco": 76,
+                "temperatura": 38.3,
+                "presion": "104/81",
                 "oxigeno": 93
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:46:10",
+            "datos": {
+                "ritmo_cardiaco": 113,
+                "temperatura": 36.8,
+                "presion": "119/71",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:46:22",
+            "datos": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 36.2,
+                "presion": "101/88",
+                "oxigeno": 92
             },
             "alertas": [
                 "⚠️ Ritmo cardíaco alto (posible taquicardia)",
@@ -1066,12 +1460,30 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:19:42",
+            "timestamp": "2025-11-01 13:46:33",
             "datos": {
-                "ritmo_cardiaco": 72,
-                "temperatura": 36.1,
-                "presion": "113/82",
-                "oxigeno": 92
+                "ritmo_cardiaco": 120,
+                "temperatura": 38.1,
+                "presion": "103/84",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:46:44",
+            "datos": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 37.0,
+                "presion": "106/83",
+                "oxigeno": 94
             },
             "alertas": [
                 "🫁 Saturación de oxígeno baja"
@@ -1082,11 +1494,146 @@
                 "cedula": "987654321",
                 "nombre": "María González"
             },
-            "timestamp": "2025-10-30 23:19:52",
+            "timestamp": "2025-11-01 13:46:56",
             "datos": {
-                "ritmo_cardiaco": 66,
+                "ritmo_cardiaco": 76,
+                "temperatura": 38.4,
+                "presion": "100/71",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:47:07",
+            "datos": {
+                "ritmo_cardiaco": 70,
+                "temperatura": 36.7,
+                "presion": "100/89",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:47:20",
+            "datos": {
+                "ritmo_cardiaco": 115,
+                "temperatura": 37.1,
+                "presion": "116/81",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:47:32",
+            "datos": {
+                "ritmo_cardiaco": 108,
+                "temperatura": 36.9,
+                "presion": "126/70",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:47:42",
+            "datos": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 36.7,
+                "presion": "130/87",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:47:54",
+            "datos": {
+                "ritmo_cardiaco": 87,
+                "temperatura": 38.4,
+                "presion": "111/74",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:48:05",
+            "datos": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 38.3,
+                "presion": "112/75",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:48:16",
+            "datos": {
+                "ritmo_cardiaco": 70,
+                "temperatura": 38.3,
+                "presion": "111/76",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "987654321",
+                "nombre": "María González"
+            },
+            "timestamp": "2025-11-01 13:48:28",
+            "datos": {
+                "ritmo_cardiaco": 91,
                 "temperatura": 37.4,
-                "presion": "114/72",
+                "presion": "125/79",
                 "oxigeno": 93
             },
             "alertas": [
@@ -1100,11 +1647,11 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:11:58",
+            "timestamp": "2025-11-01 12:38:37",
             "datos": {
-                "ritmo_cardiaco": 62,
-                "temperatura": 36.9,
-                "presion": "115/71",
+                "ritmo_cardiaco": 97,
+                "temperatura": 37.9,
+                "presion": "117/79",
                 "oxigeno": 95
             },
             "alertas": [
@@ -1116,11 +1663,91 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:12:08",
+            "timestamp": "2025-11-01 12:38:49",
             "datos": {
-                "ritmo_cardiaco": 60,
+                "ritmo_cardiaco": 81,
+                "temperatura": 37.9,
+                "presion": "124/88",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:39:00",
+            "datos": {
+                "ritmo_cardiaco": 88,
+                "temperatura": 37.2,
+                "presion": "115/87",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:39:11",
+            "datos": {
+                "ritmo_cardiaco": 106,
+                "temperatura": 37.7,
+                "presion": "115/79",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:39:22",
+            "datos": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 37.1,
+                "presion": "121/85",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:39:32",
+            "datos": {
+                "ritmo_cardiaco": 64,
                 "temperatura": 36.2,
-                "presion": "129/71",
+                "presion": "123/88",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:39:44",
+            "datos": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 37.9,
+                "presion": "127/79",
                 "oxigeno": 95
             },
             "alertas": [
@@ -1132,12 +1759,130 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:12:20",
+            "timestamp": "2025-11-01 12:39:56",
+            "datos": {
+                "ritmo_cardiaco": 72,
+                "temperatura": 38.9,
+                "presion": "100/81",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:40:06",
+            "datos": {
+                "ritmo_cardiaco": 120,
+                "temperatura": 38.7,
+                "presion": "108/77",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:40:18",
+            "datos": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 37.1,
+                "presion": "103/83",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:40:28",
             "datos": {
                 "ritmo_cardiaco": 82,
-                "temperatura": 38.8,
-                "presion": "124/79",
+                "temperatura": 36.1,
+                "presion": "126/71",
                 "oxigeno": 96
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:40:39",
+            "datos": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 38.2,
+                "presion": "129/77",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:40:51",
+            "datos": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 38.7,
+                "presion": "120/79",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:41:01",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 37.0,
+                "presion": "103/78",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:41:13",
+            "datos": {
+                "ritmo_cardiaco": 76,
+                "temperatura": 38.7,
+                "presion": "119/84",
+                "oxigeno": 95
             },
             "alertas": [
                 "🌡️ Fiebre detectada"
@@ -1148,12 +1893,143 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:12:32",
+            "timestamp": "2025-11-01 12:41:24",
             "datos": {
-                "ritmo_cardiaco": 92,
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.7,
+                "presion": "109/72",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:41:35",
+            "datos": {
+                "ritmo_cardiaco": 69,
                 "temperatura": 38.0,
-                "presion": "100/73",
-                "oxigeno": 97
+                "presion": "124/82",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:41:46",
+            "datos": {
+                "ritmo_cardiaco": 116,
+                "temperatura": 37.5,
+                "presion": "123/75",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:41:57",
+            "datos": {
+                "ritmo_cardiaco": 106,
+                "temperatura": 37.3,
+                "presion": "100/79",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:42:09",
+            "datos": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 37.5,
+                "presion": "115/79",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:42:19",
+            "datos": {
+                "ritmo_cardiaco": 94,
+                "temperatura": 36.2,
+                "presion": "109/84",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:42:30",
+            "datos": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 38.4,
+                "presion": "106/78",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:42:42",
+            "datos": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 37.2,
+                "presion": "103/78",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:42:53",
+            "datos": {
+                "ritmo_cardiaco": 61,
+                "temperatura": 36.3,
+                "presion": "120/90",
+                "oxigeno": 99
             },
             "alertas": [
                 "✅ Todo en rangos normales"
@@ -1164,11 +2040,305 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:12:42",
+            "timestamp": "2025-11-01 12:43:03",
             "datos": {
-                "ritmo_cardiaco": 64,
-                "temperatura": 38.4,
-                "presion": "117/75",
+                "ritmo_cardiaco": 73,
+                "temperatura": 37.3,
+                "presion": "112/81",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:43:14",
+            "datos": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 38.7,
+                "presion": "100/84",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:43:25",
+            "datos": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 38.1,
+                "presion": "119/77",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:43:37",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 36.6,
+                "presion": "114/88",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:43:48",
+            "datos": {
+                "ritmo_cardiaco": 113,
+                "temperatura": 37.3,
+                "presion": "122/75",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:43:58",
+            "datos": {
+                "ritmo_cardiaco": 62,
+                "temperatura": 37.8,
+                "presion": "105/78",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:44:10",
+            "datos": {
+                "ritmo_cardiaco": 111,
+                "temperatura": 37.0,
+                "presion": "129/84",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:44:20",
+            "datos": {
+                "ritmo_cardiaco": 76,
+                "temperatura": 37.2,
+                "presion": "130/81",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:44:32",
+            "datos": {
+                "ritmo_cardiaco": 106,
+                "temperatura": 37.3,
+                "presion": "115/90",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 12:44:43",
+            "datos": {
+                "ritmo_cardiaco": 91,
+                "temperatura": 38.8,
+                "presion": "117/86",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:45:38",
+            "datos": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 38.6,
+                "presion": "127/85",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:45:48",
+            "datos": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.9,
+                "presion": "109/70",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:00",
+            "datos": {
+                "ritmo_cardiaco": 109,
+                "temperatura": 36.4,
+                "presion": "129/86",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:10",
+            "datos": {
+                "ritmo_cardiaco": 86,
+                "temperatura": 38.3,
+                "presion": "130/73",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:22",
+            "datos": {
+                "ritmo_cardiaco": 93,
+                "temperatura": 38.5,
+                "presion": "117/85",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:34",
+            "datos": {
+                "ritmo_cardiaco": 111,
+                "temperatura": 38.9,
+                "presion": "113/71",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:44",
+            "datos": {
+                "ritmo_cardiaco": 66,
+                "temperatura": 37.1,
+                "presion": "112/74",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:46:56",
+            "datos": {
+                "ritmo_cardiaco": 96,
+                "temperatura": 38.8,
+                "presion": "112/75",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:47:08",
+            "datos": {
+                "ritmo_cardiaco": 75,
+                "temperatura": 38.3,
+                "presion": "114/75",
                 "oxigeno": 91
             },
             "alertas": [
@@ -1181,92 +2351,11 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:12:54",
+            "timestamp": "2025-11-01 13:47:21",
             "datos": {
-                "ritmo_cardiaco": 101,
-                "temperatura": 36.2,
-                "presion": "105/81",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:13:06",
-            "datos": {
-                "ritmo_cardiaco": 110,
+                "ritmo_cardiaco": 89,
                 "temperatura": 37.5,
-                "presion": "125/90",
-                "oxigeno": 98
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:13:16",
-            "datos": {
-                "ritmo_cardiaco": 74,
-                "temperatura": 37.0,
-                "presion": "109/89",
-                "oxigeno": 93
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:13:28",
-            "datos": {
-                "ritmo_cardiaco": 100,
-                "temperatura": 37.7,
-                "presion": "129/77",
-                "oxigeno": 93
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:13:39",
-            "datos": {
-                "ritmo_cardiaco": 70,
-                "temperatura": 38.6,
-                "presion": "121/80",
-                "oxigeno": 100
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:13:50",
-            "datos": {
-                "ritmo_cardiaco": 68,
-                "temperatura": 37.1,
-                "presion": "123/70",
+                "presion": "117/76",
                 "oxigeno": 96
             },
             "alertas": [
@@ -1278,15 +2367,15 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:17:41",
+            "timestamp": "2025-11-01 13:47:33",
             "datos": {
-                "ritmo_cardiaco": 100,
-                "temperatura": 38.5,
-                "presion": "101/86",
-                "oxigeno": 99
+                "ritmo_cardiaco": 61,
+                "temperatura": 36.3,
+                "presion": "118/78",
+                "oxigeno": 94
             },
             "alertas": [
-                "🌡️ Fiebre detectada"
+                "🫁 Saturación de oxígeno baja"
             ]
         },
         {
@@ -1294,166 +2383,32 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:17:51",
+            "timestamp": "2025-11-01 13:47:43",
+            "datos": {
+                "ritmo_cardiaco": 107,
+                "temperatura": 36.2,
+                "presion": "105/74",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:47:54",
             "datos": {
                 "ritmo_cardiaco": 103,
-                "temperatura": 36.4,
-                "presion": "115/77",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:03",
-            "datos": {
-                "ritmo_cardiaco": 73,
-                "temperatura": 38.5,
-                "presion": "128/83",
-                "oxigeno": 99
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:14",
-            "datos": {
-                "ritmo_cardiaco": 93,
-                "temperatura": 38.3,
-                "presion": "101/84",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:24",
-            "datos": {
-                "ritmo_cardiaco": 68,
-                "temperatura": 37.1,
-                "presion": "119/89",
-                "oxigeno": 95
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:36",
-            "datos": {
-                "ritmo_cardiaco": 99,
-                "temperatura": 37.3,
-                "presion": "115/88",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:46",
-            "datos": {
-                "ritmo_cardiaco": 111,
-                "temperatura": 38.6,
-                "presion": "104/77",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:18:57",
-            "datos": {
-                "ritmo_cardiaco": 109,
-                "temperatura": 37.8,
-                "presion": "115/78",
-                "oxigeno": 92
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:19:09",
-            "datos": {
-                "ritmo_cardiaco": 81,
-                "temperatura": 38.5,
-                "presion": "104/74",
-                "oxigeno": 93
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:19:19",
-            "datos": {
-                "ritmo_cardiaco": 84,
-                "temperatura": 39.0,
-                "presion": "112/76",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "456789123",
-                "nombre": "Carlos Rodríguez"
-            },
-            "timestamp": "2025-10-30 23:19:31",
-            "datos": {
-                "ritmo_cardiaco": 64,
-                "temperatura": 36.1,
-                "presion": "117/78",
+                "temperatura": 36.5,
+                "presion": "118/80",
                 "oxigeno": 98
             },
             "alertas": [
-                "✅ Todo en rangos normales"
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
             ]
         },
         {
@@ -1461,14 +2416,32 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:19:43",
+            "timestamp": "2025-11-01 13:48:05",
             "datos": {
-                "ritmo_cardiaco": 68,
-                "temperatura": 36.8,
-                "presion": "110/78",
+                "ritmo_cardiaco": 111,
+                "temperatura": 38.8,
+                "presion": "120/73",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "456789123",
+                "nombre": "Carlos Rodríguez"
+            },
+            "timestamp": "2025-11-01 13:48:17",
+            "datos": {
+                "ritmo_cardiaco": 111,
+                "temperatura": 37.6,
+                "presion": "126/71",
                 "oxigeno": 90
             },
             "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
                 "🫁 Saturación de oxígeno baja"
             ]
         },
@@ -1477,15 +2450,14 @@
                 "cedula": "456789123",
                 "nombre": "Carlos Rodríguez"
             },
-            "timestamp": "2025-10-30 23:19:53",
+            "timestamp": "2025-11-01 13:48:29",
             "datos": {
-                "ritmo_cardiaco": 118,
-                "temperatura": 38.1,
-                "presion": "122/87",
+                "ritmo_cardiaco": 81,
+                "temperatura": 38.8,
+                "presion": "103/74",
                 "oxigeno": 94
             },
             "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
                 "🌡️ Fiebre detectada",
                 "🫁 Saturación de oxígeno baja"
             ]
@@ -1497,12 +2469,29 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:17:41",
+            "timestamp": "2025-11-01 12:38:38",
             "datos": {
-                "ritmo_cardiaco": 94,
-                "temperatura": 38.9,
-                "presion": "114/87",
-                "oxigeno": 95
+                "ritmo_cardiaco": 119,
+                "temperatura": 37.0,
+                "presion": "113/85",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:38:49",
+            "datos": {
+                "ritmo_cardiaco": 62,
+                "temperatura": 38.2,
+                "presion": "115/80",
+                "oxigeno": 97
             },
             "alertas": [
                 "🌡️ Fiebre detectada"
@@ -1513,12 +2502,12 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:17:52",
+            "timestamp": "2025-11-01 12:39:01",
             "datos": {
-                "ritmo_cardiaco": 62,
-                "temperatura": 37.3,
-                "presion": "120/78",
-                "oxigeno": 91
+                "ritmo_cardiaco": 88,
+                "temperatura": 37.8,
+                "presion": "102/84",
+                "oxigeno": 93
             },
             "alertas": [
                 "🫁 Saturación de oxígeno baja"
@@ -1529,11 +2518,208 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:18:03",
+            "timestamp": "2025-11-01 12:39:11",
+            "datos": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 38.6,
+                "presion": "128/86",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:39:23",
+            "datos": {
+                "ritmo_cardiaco": 116,
+                "temperatura": 36.7,
+                "presion": "116/90",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:39:33",
+            "datos": {
+                "ritmo_cardiaco": 119,
+                "temperatura": 36.6,
+                "presion": "126/77",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:39:45",
+            "datos": {
+                "ritmo_cardiaco": 71,
+                "temperatura": 38.9,
+                "presion": "114/79",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:39:56",
+            "datos": {
+                "ritmo_cardiaco": 70,
+                "temperatura": 37.3,
+                "presion": "120/76",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:40:06",
+            "datos": {
+                "ritmo_cardiaco": 65,
+                "temperatura": 37.4,
+                "presion": "101/90",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:40:18",
+            "datos": {
+                "ritmo_cardiaco": 91,
+                "temperatura": 38.8,
+                "presion": "115/85",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:40:28",
+            "datos": {
+                "ritmo_cardiaco": 67,
+                "temperatura": 38.9,
+                "presion": "117/75",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:40:40",
             "datos": {
                 "ritmo_cardiaco": 84,
-                "temperatura": 38.9,
-                "presion": "107/83",
+                "temperatura": 37.2,
+                "presion": "123/82",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:40:51",
+            "datos": {
+                "ritmo_cardiaco": 111,
+                "temperatura": 38.8,
+                "presion": "117/71",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:41:02",
+            "datos": {
+                "ritmo_cardiaco": 100,
+                "temperatura": 36.2,
+                "presion": "116/81",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:41:13",
+            "datos": {
+                "ritmo_cardiaco": 114,
+                "temperatura": 37.7,
+                "presion": "121/75",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:41:25",
+            "datos": {
+                "ritmo_cardiaco": 85,
+                "temperatura": 38.6,
+                "presion": "105/81",
                 "oxigeno": 95
             },
             "alertas": [
@@ -1545,11 +2731,257 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:18:14",
+            "timestamp": "2025-11-01 12:41:35",
             "datos": {
-                "ritmo_cardiaco": 107,
-                "temperatura": 38.2,
-                "presion": "124/78",
+                "ritmo_cardiaco": 112,
+                "temperatura": 36.7,
+                "presion": "125/70",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:41:47",
+            "datos": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.4,
+                "presion": "124/85",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:41:57",
+            "datos": {
+                "ritmo_cardiaco": 95,
+                "temperatura": 37.0,
+                "presion": "124/79",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:42:09",
+            "datos": {
+                "ritmo_cardiaco": 80,
+                "temperatura": 38.6,
+                "presion": "105/75",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:42:19",
+            "datos": {
+                "ritmo_cardiaco": 78,
+                "temperatura": 38.4,
+                "presion": "104/83",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:42:31",
+            "datos": {
+                "ritmo_cardiaco": 76,
+                "temperatura": 37.7,
+                "presion": "103/80",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:42:42",
+            "datos": {
+                "ritmo_cardiaco": 74,
+                "temperatura": 38.7,
+                "presion": "102/88",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:42:53",
+            "datos": {
+                "ritmo_cardiaco": 103,
+                "temperatura": 37.7,
+                "presion": "105/77",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:03",
+            "datos": {
+                "ritmo_cardiaco": 113,
+                "temperatura": 38.4,
+                "presion": "129/86",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:15",
+            "datos": {
+                "ritmo_cardiaco": 120,
+                "temperatura": 38.6,
+                "presion": "127/80",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:25",
+            "datos": {
+                "ritmo_cardiaco": 106,
+                "temperatura": 36.7,
+                "presion": "111/80",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:37",
+            "datos": {
+                "ritmo_cardiaco": 92,
+                "temperatura": 36.0,
+                "presion": "122/74",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:48",
+            "datos": {
+                "ritmo_cardiaco": 68,
+                "temperatura": 38.9,
+                "presion": "117/77",
+                "oxigeno": 98
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:43:59",
+            "datos": {
+                "ritmo_cardiaco": 94,
+                "temperatura": 37.0,
+                "presion": "118/86",
+                "oxigeno": 100
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:44:10",
+            "datos": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 38.6,
+                "presion": "129/71",
+                "oxigeno": 96
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 12:44:21",
+            "datos": {
+                "ritmo_cardiaco": 101,
+                "temperatura": 38.4,
+                "presion": "108/88",
                 "oxigeno": 99
             },
             "alertas": [
@@ -1562,125 +2994,11 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:18:24",
+            "timestamp": "2025-11-01 12:44:32",
             "datos": {
-                "ritmo_cardiaco": 100,
-                "temperatura": 38.0,
-                "presion": "112/88",
-                "oxigeno": 90
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:18:36",
-            "datos": {
-                "ritmo_cardiaco": 116,
-                "temperatura": 37.5,
-                "presion": "125/84",
-                "oxigeno": 97
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:18:46",
-            "datos": {
-                "ritmo_cardiaco": 119,
-                "temperatura": 36.2,
-                "presion": "111/75",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:18:58",
-            "datos": {
-                "ritmo_cardiaco": 84,
-                "temperatura": 36.4,
-                "presion": "117/81",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:19:09",
-            "datos": {
-                "ritmo_cardiaco": 96,
+                "ritmo_cardiaco": 81,
                 "temperatura": 36.8,
-                "presion": "120/75",
-                "oxigeno": 94
-            },
-            "alertas": [
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:19:19",
-            "datos": {
-                "ritmo_cardiaco": 92,
-                "temperatura": 38.4,
-                "presion": "123/80",
-                "oxigeno": 91
-            },
-            "alertas": [
-                "🌡️ Fiebre detectada",
-                "🫁 Saturación de oxígeno baja"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:19:31",
-            "datos": {
-                "ritmo_cardiaco": 74,
-                "temperatura": 36.4,
-                "presion": "100/89",
-                "oxigeno": 96
-            },
-            "alertas": [
-                "✅ Todo en rangos normales"
-            ]
-        },
-        {
-            "paciente": {
-                "cedula": "654321987",
-                "nombre": "Danieal Castillo"
-            },
-            "timestamp": "2025-10-30 23:19:43",
-            "datos": {
-                "ritmo_cardiaco": 78,
-                "temperatura": 36.6,
-                "presion": "114/77",
+                "presion": "125/80",
                 "oxigeno": 100
             },
             "alertas": [
@@ -1692,12 +3010,275 @@
                 "cedula": "654321987",
                 "nombre": "Danieal Castillo"
             },
-            "timestamp": "2025-10-30 23:19:53",
+            "timestamp": "2025-11-01 12:44:44",
             "datos": {
-                "ritmo_cardiaco": 93,
-                "temperatura": 38.3,
-                "presion": "105/79",
+                "ritmo_cardiaco": 105,
+                "temperatura": 38.9,
+                "presion": "128/75",
                 "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:45:38",
+            "datos": {
+                "ritmo_cardiaco": 104,
+                "temperatura": 36.3,
+                "presion": "114/75",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:45:48",
+            "datos": {
+                "ritmo_cardiaco": 100,
+                "temperatura": 36.1,
+                "presion": "103/79",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:00",
+            "datos": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 38.1,
+                "presion": "100/79",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:11",
+            "datos": {
+                "ritmo_cardiaco": 112,
+                "temperatura": 38.6,
+                "presion": "117/78",
+                "oxigeno": 92
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:23",
+            "datos": {
+                "ritmo_cardiaco": 78,
+                "temperatura": 36.9,
+                "presion": "109/90",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:34",
+            "datos": {
+                "ritmo_cardiaco": 102,
+                "temperatura": 36.8,
+                "presion": "115/71",
+                "oxigeno": 90
+            },
+            "alertas": [
+                "⚠️ Ritmo cardíaco alto (posible taquicardia)",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:45",
+            "datos": {
+                "ritmo_cardiaco": 77,
+                "temperatura": 36.3,
+                "presion": "114/71",
+                "oxigeno": 94
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:46:56",
+            "datos": {
+                "ritmo_cardiaco": 98,
+                "temperatura": 37.0,
+                "presion": "103/76",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:47:09",
+            "datos": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 36.6,
+                "presion": "127/79",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:47:21",
+            "datos": {
+                "ritmo_cardiaco": 95,
+                "temperatura": 36.8,
+                "presion": "121/81",
+                "oxigeno": 99
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:47:33",
+            "datos": {
+                "ritmo_cardiaco": 64,
+                "temperatura": 38.7,
+                "presion": "107/77",
+                "oxigeno": 93
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada",
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:47:43",
+            "datos": {
+                "ritmo_cardiaco": 79,
+                "temperatura": 38.8,
+                "presion": "120/86",
+                "oxigeno": 95
+            },
+            "alertas": [
+                "🌡️ Fiebre detectada"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:47:55",
+            "datos": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 37.9,
+                "presion": "126/87",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:48:06",
+            "datos": {
+                "ritmo_cardiaco": 82,
+                "temperatura": 37.6,
+                "presion": "102/80",
+                "oxigeno": 91
+            },
+            "alertas": [
+                "🫁 Saturación de oxígeno baja"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:48:17",
+            "datos": {
+                "ritmo_cardiaco": 84,
+                "temperatura": 36.5,
+                "presion": "111/70",
+                "oxigeno": 97
+            },
+            "alertas": [
+                "✅ Todo en rangos normales"
+            ]
+        },
+        {
+            "paciente": {
+                "cedula": "654321987",
+                "nombre": "Danieal Castillo"
+            },
+            "timestamp": "2025-11-01 13:48:29",
+            "datos": {
+                "ritmo_cardiaco": 89,
+                "temperatura": 38.9,
+                "presion": "125/80",
+                "oxigeno": 94
             },
             "alertas": [
                 "🌡️ Fiebre detectada",

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Médico - Sistema de Monitoreo de Salud</title>
+  <title>Mi Dashboard - Sistema de Monitoreo de Salud</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -29,7 +29,7 @@
     .user-avatar {
       width: 50px;
       height: 50px;
-      background: linear-gradient(135deg, #009688 0%, #00796b 100%);
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -67,7 +67,7 @@
       transform: translateY(-2px);
     }
 
-    .search-panel {
+    .info-panel {
       background: white;
       border-radius: 15px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -75,97 +75,20 @@
       margin-bottom: 20px;
     }
 
-    .search-panel h3 {
-      margin: 0 0 20px 0;
+    .info-panel h3 {
+      margin: 0 0 15px 0;
       color: #009688;
     }
 
-    .search-options {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-    }
-
-    .search-option {
-      flex: 1;
-      min-width: 250px;
-    }
-
-    .search-option label {
-      display: block;
-      font-weight: bold;
-      color: #333;
+    .info-item {
+      padding: 10px;
+      background: #f5f5f5;
+      border-radius: 8px;
       margin-bottom: 10px;
     }
 
-    .search-box {
-      display: flex;
-      gap: 10px;
-    }
-
-    .search-box input,
-    .search-box select {
-      flex: 1;
-      padding: 12px;
-      border: 2px solid #009688;
-      border-radius: 8px;
-      font-size: 1em;
-    }
-
-    .search-box button {
-      padding: 12px 30px;
-      background: #009688;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: all 0.3s;
-    }
-
-    .search-box button:hover {
-      background: #00796b;
-      transform: translateY(-2px);
-    }
-
-    .patient-list {
-      background: #f5f5f5;
-      padding: 15px;
-      border-radius: 8px;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-
-    .patient-item {
-      background: white;
-      padding: 10px;
-      margin-bottom: 8px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .patient-item:hover {
-      background: #e0f2f1;
-      transform: translateX(5px);
-    }
-
-    .patient-item.selected {
-      background: #009688;
-      color: white;
-    }
-
-    #current-patient {
-      background: #e0f2f1;
-      padding: 15px;
-      border-radius: 8px;
-      margin-top: 15px;
-      color: #00796b;
-      font-weight: bold;
+    .info-item strong {
+      color: #333;
     }
   </style>
 </head>
@@ -173,10 +96,10 @@
   <div class="container">
     <div class="header">
       <div class="user-info">
-        <div class="user-avatar">👨‍⚕️</div>
+        <div class="user-avatar">👤</div>
         <div class="user-details">
           <h2>{{ user.nombre }}</h2>
-          <p>🩺 {{ user.especialidad }} | 👨‍⚕️ Médico</p>
+          <p>📋 Cédula: {{ user.cedula }} | 🏥 Paciente</p>
         </div>
       </div>
       <div class="header-actions">
@@ -186,40 +109,19 @@
       </div>
     </div>
 
-    <h1>🩺 Panel de Monitoreo Médico</h1>
+    <h1>🩺 Mi Estado de Salud</h1>
 
-    <!-- 🔍 Panel de búsqueda -->
-    <div class="search-panel">
-      <h3>Buscar Paciente</h3>
-      <div class="search-options">
-        <div class="search-option">
-          <label>Por Cédula:</label>
-          <div class="search-box">
-            <input 
-              type="text" 
-              id="cedula-input" 
-              placeholder="Ej: 123456789"
-              pattern="[0-9]*"
-            />
-            <button id="search-btn">Buscar 🔍</button>
-          </div>
-        </div>
-        <div class="search-option">
-          <label>Lista de Pacientes:</label>
-          <button id="load-patients-btn" class="search-box" style="justify-content: center;">
-            Cargar Pacientes 📋
-          </button>
-        </div>
+    <!-- Panel de información del paciente -->
+    <div class="info-panel">
+      <h3>📋 Información Personal</h3>
+      <div class="info-item">
+        <strong>Nombre:</strong> {{ user.nombre }}
       </div>
-      
-      <div id="patient-list-container" class="hidden">
-        <label><strong>Seleccione un paciente:</strong></label>
-        <div id="patient-list" class="patient-list"></div>
+      <div class="info-item">
+        <strong>Cédula:</strong> {{ user.cedula }}
       </div>
-
-      <div id="current-patient" class="hidden">
-        <strong>👤 Paciente Actual:</strong> <span id="patient-name"></span> - 
-        <strong>📋 Cédula:</strong> <span id="patient-cedula"></span>
+      <div class="info-item">
+        <strong>Estado:</strong> <span style="color: #4caf50;">✓ Monitoreo Activo</span>
       </div>
     </div>
 
@@ -254,54 +156,15 @@
 
   <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
   <script>
-    const loadPatientsBtn = document.getElementById('load-patients-btn');
-    const patientListContainer = document.getElementById('patient-list-container');
-    const patientList = document.getElementById('patient-list');
-    const currentPatient = document.getElementById('current-patient');
-    const patientName = document.getElementById('patient-name');
-    const patientCedulaDisplay = document.getElementById('patient-cedula');
-
-    loadPatientsBtn.addEventListener('click', async () => {
-      try {
-        const res = await fetch('/api/pacientes');
-        const pacientes = await res.json();
-
-        if (pacientes && pacientes.length > 0) {
-          patientList.innerHTML = '';
-          pacientes.forEach(p => {
-            const item = document.createElement('div');
-            item.className = 'patient-item';
-            item.innerHTML = `
-              <span><strong>${p.nombre}</strong></span>
-              <span>📋 ${p.cedula}</span>
-            `;
-            item.addEventListener('click', () => {
-              document.querySelectorAll('.patient-item').forEach(i => i.classList.remove('selected'));
-              item.classList.add('selected');
-              startMonitoring(p.cedula, p.nombre);
-            });
-            patientList.appendChild(item);
-          });
-          patientListContainer.classList.remove('hidden');
-          showStatus(`${pacientes.length} pacientes encontrados`);
-        } else {
-          showStatus('No hay pacientes registrados', true);
-        }
-      } catch (error) {
-        showStatus('Error al cargar pacientes', true);
-      }
-    });
-
-    function startMonitoring(cedula, nombre) {
-      currentCedula = cedula;
-      patientName.textContent = nombre || 'Desconocido';
-      patientCedulaDisplay.textContent = cedula;
-      currentPatient.classList.remove('hidden');
-      
-      if (updateInterval) clearInterval(updateInterval);
+    // Auto-cargar datos del paciente actual
+    const userCedula = "{{ user.cedula }}";
+    
+    // Iniciar monitoreo automáticamente
+    window.addEventListener('DOMContentLoaded', () => {
+      currentCedula = userCedula;
       updateCharts();
       updateInterval = setInterval(updateCharts, 5000);
-    }
+    });
   </script>
 </body>
 </html>

@@ -31,7 +31,7 @@ try:
             print("⚠️ DB_NAME no configurada y URI no contiene una base de datos por defecto. db será None.")
 
     if db is not None:
-        print("✅ Conectado a MongoDB correctamente")
+        print("✅ Conectado a MongoDB correctamente crack")
     else:
         print("⚠️ No hay conexión activa con MongoDB (db is None)")
 
