@@ -1,9 +1,9 @@
 # Sistema de Monitoreo de Salud - Pulsito
 
-| Código | Nombre | Correo |
+| Cedula | Nombre | Correo |
 |:---|:---|:---|
-| 542378923 | Fulanito de Tal | fulanito.tal@miuniremington.edu.co |
-| 542378923 | Fulanito de Tal | fulanito.tal@miuniremington.edu.co |
+| 1060872570 | Darbin Garcia Acosta | garcia_9001@hotmail.com |
+| 1087189221 | Alex Duvan Perlaza | alexper1806@gmail.com |
 
 ---
 
@@ -118,7 +118,7 @@ proyecto-seminario/
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/TU-USUARIO/sistema-monitoreo-salud.git
+git clone https://github.com/Darbin9001/plantilla-proyecto.git
 cd sistema-monitoreo-salud
 ```
 
